@@ -50,7 +50,7 @@ export default async function AppPage({ params }: { params: Promise<{ slug: stri
 function Hero({ app }: { app: AppEntry }) {
   return (
     <section style={{ padding: "60px 0 80px", position: "relative" }}>
-      <div className="rise rise-1 mono" style={{ display: "flex", gap: 24, color: "var(--muted)", marginBottom: 40 }}>
+      <div className="rise rise-1 mono" style={{ display: "flex", flexWrap: "wrap", gap: "8px 16px", color: "var(--muted)", marginBottom: 32 }}>
         <span>Entry · {app.number}</span>
         <span>·</span>
         <span>{app.tag}</span>
@@ -58,12 +58,12 @@ function Hero({ app }: { app: AppEntry }) {
         <span>{app.year}</span>
       </div>
 
-      <div style={{ display: "grid", gridTemplateColumns: "1.4fr 1fr", gap: 60, alignItems: "center" }}>
+      <div className="grid-detail-hero">
         <div>
           <h1 className="rise rise-2" style={{
             fontFamily: "var(--font-display)",
             fontWeight: 600,
-            fontSize: "clamp(2.5rem, 7vw, 5rem)",
+            fontSize: "clamp(2rem, 7vw, 5rem)",
             lineHeight: 1.02,
             letterSpacing: "-0.045em",
             margin: "0 0 20px",
@@ -132,7 +132,7 @@ function Hero({ app }: { app: AppEntry }) {
 function Story({ app }: { app: AppEntry }) {
   return (
     <section style={{ padding: "72px 0", borderTop: "1px solid var(--rule)", borderBottom: "1px solid var(--rule)" }}>
-      <div style={{ display: "grid", gridTemplateColumns: "1fr 2fr", gap: 60 }}>
+      <div className="grid-story">
         <div className="eyebrow">The pitch</div>
         <p style={{
           fontFamily: "var(--font-display)",
@@ -152,7 +152,7 @@ function Story({ app }: { app: AppEntry }) {
 function Features({ app }: { app: AppEntry }) {
   return (
     <section id="features" style={{ padding: "120px 0" }}>
-      <header style={{ marginBottom: 56, display: "grid", gridTemplateColumns: "1fr 1fr", gap: 40, alignItems: "end" }}>
+      <header className="grid-cat-header">
         <div>
           <div className="eyebrow" style={{ marginBottom: 16 }}>Features</div>
           <h2 style={{
@@ -170,14 +170,7 @@ function Features({ app }: { app: AppEntry }) {
 
       <ol style={{ listStyle: "none", padding: 0, margin: 0 }}>
         {app.features.map((f, i) => (
-          <li key={i} style={{
-            display: "grid",
-            gridTemplateColumns: "48px 1fr 2fr",
-            gap: 32,
-            padding: "32px 0",
-            borderTop: "1px solid var(--rule)",
-            alignItems: "start",
-          }}>
+          <li key={i} className="feature-row">
             <div className="mono" style={{ color: "var(--muted)" }}>{String(i + 1).padStart(2, "0")}</div>
             <h3 style={{
               fontFamily: "var(--font-display)", fontWeight: 600,
@@ -202,12 +195,10 @@ function Features({ app }: { app: AppEntry }) {
 function Showcase({ app }: { app: AppEntry }) {
   const shots = app.screenshots;
   return (
-    <section style={{
-      padding: "72px 32px",
+    <section className="showcase" style={{
       borderRadius: "var(--radius-lg)",
       background: "var(--paper-warm)",
       border: "1px solid var(--rule)",
-      margin: "0 0 96px",
       position: "relative",
       overflow: "hidden",
     }}>
@@ -259,7 +250,7 @@ function Showcase({ app }: { app: AppEntry }) {
 function PressKit({ app }: { app: AppEntry }) {
   return (
     <section id="presskit" style={{ padding: "100px 0", borderTop: "1px solid var(--rule)" }}>
-      <div style={{ display: "grid", gridTemplateColumns: "1fr 1.6fr", gap: 60 }}>
+      <div className="grid-press">
         <div>
           <div className="eyebrow" style={{ marginBottom: 16 }}>Press kit</div>
           <h2 style={{
@@ -275,7 +266,7 @@ function PressKit({ app }: { app: AppEntry }) {
           </p>
         </div>
 
-        <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 16 }}>
+        <div className="grid-press-cards">
           <KitCard label="App icon · 1024px" sub="PNG · ZIP" accent={app.accent} />
           <KitCard label="Screenshots" sub={`6 × PNG · ${app.tag}`} accent={app.accent} />
           <KitCard label="Boilerplate" sub="Short / medium / long" accent={app.accent} />
@@ -334,7 +325,7 @@ function Other({ app }: { app: AppEntry }) {
           Other entries in the catalogue.
         </h2>
       </header>
-      <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: 16 }}>
+      <div className="grid-others">
         {others.map((o) => (
           <Link key={o.id} href={`/apps/${o.id}`} style={{
             display: "block", padding: 20,

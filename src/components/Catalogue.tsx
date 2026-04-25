@@ -10,14 +10,7 @@ export function Catalogue({ apps }: { apps: AppEntry[] }) {
 
   return (
     <section id="apps" style={{ padding: "120px 0 60px" }}>
-      <header style={{
-        display: "grid",
-        gridTemplateColumns: "1fr 1fr",
-        gap: 40, alignItems: "end",
-        marginBottom: 56,
-        paddingBottom: 24,
-        borderBottom: "1px solid var(--rule)",
-      }}>
+      <header className="grid-cat-header">
         <div>
           <div className="eyebrow" style={{ marginBottom: 16 }}>The catalogue</div>
           <h2 style={{
@@ -63,14 +56,7 @@ function AppRow({ app, isHover, onHover }: { app: AppEntry; isHover: boolean; on
         background: isHover ? "var(--paper-warm)" : "transparent",
       }}
     >
-      <Link href={`/apps/${app.id}`} style={{
-        display: "grid",
-        gridTemplateColumns: "60px 1fr 1.4fr 180px 44px",
-        alignItems: "center",
-        padding: "28px 4px",
-        gap: 28,
-        position: "relative",
-      }}>
+      <Link href={`/apps/${app.id}`} className="cat-row">
         <div className="mono" style={{
           color: "var(--muted)",
           fontSize: "0.78rem",
@@ -89,14 +75,14 @@ function AppRow({ app, isHover, onHover }: { app: AppEntry; isHover: boolean; on
           <div style={{ color: "var(--muted)", fontSize: "0.875rem" }}>{app.sub}</div>
         </div>
 
-        <div style={{
+        <div className="cat-row__pitch" style={{
           fontSize: "0.9375rem",
           lineHeight: 1.5,
           color: "var(--ink-soft)",
           maxWidth: 480,
         }}>{app.pitch}</div>
 
-        <div className="mono" style={{ color: "var(--muted)" }}>
+        <div className="mono cat-row__meta" style={{ color: "var(--muted)" }}>
           <div>{app.tag}</div>
           <div style={{ marginTop: 4 }}>{app.year}</div>
         </div>
@@ -114,7 +100,7 @@ function AppRow({ app, isHover, onHover }: { app: AppEntry; isHover: boolean; on
         </div>
       </Link>
 
-      <div style={{
+      <div className="cat-row__preview" style={{
         position: "absolute",
         right: 80, top: "50%",
         transform: `translateY(-50%) ${isHover ? "scale(1) rotate(-3deg)" : "scale(0.8) rotate(0deg)"}`,

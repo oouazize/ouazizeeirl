@@ -31,7 +31,7 @@ function Hero() {
       <h1 className="rise rise-2" style={{
         fontFamily: "var(--font-display)",
         fontWeight: 600,
-        fontSize: "clamp(2.5rem, 8vw, 6rem)",
+        fontSize: "clamp(2rem, 8vw, 6rem)",
         lineHeight: 1.02,
         letterSpacing: "-0.045em",
         margin: "0 0 28px",
@@ -41,13 +41,7 @@ function Hero() {
         for the phone in your pocket.
       </h1>
 
-      <div className="rise rise-3" style={{
-        display: "grid",
-        gridTemplateColumns: "1.2fr 1fr",
-        gap: 60,
-        alignItems: "end",
-        marginTop: 48,
-      }}>
+      <div className="rise rise-3 grid-hero">
         <p style={{
           fontSize: "1.0625rem",
           lineHeight: 1.55,
@@ -81,12 +75,7 @@ function About() {
   ];
   return (
     <section id="about" style={{ padding: "120px 0", borderTop: "1px solid var(--rule)" }}>
-      <div style={{
-        display: "grid",
-        gridTemplateColumns: "1fr 1.4fr",
-        gap: 80,
-        alignItems: "start",
-      }}>
+      <div className="grid-about">
         <div>
           <div className="eyebrow" style={{ marginBottom: 20 }}>The studio</div>
           <h2 style={{
@@ -112,14 +101,7 @@ function About() {
             would I keep this on my own home screen?
           </p>
 
-          <dl style={{
-            display: "grid",
-            gridTemplateColumns: "repeat(3, 1fr)",
-            gap: 32,
-            marginTop: 56,
-            paddingTop: 32,
-            borderTop: "1px solid var(--rule)",
-          }}>
+          <dl className="about-stats">
             {stats.map(([n, l]) => (
               <div key={l}>
                 <div style={{
