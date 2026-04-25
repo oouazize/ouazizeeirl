@@ -1,21 +1,18 @@
-# DevApps
+# devapps
 
 Marketing + privacy hub for iOS apps by Oussama Ouazize.
 
-Built with Next.js 15 (App Router), TypeScript, Tailwind CSS.
+Built with Next.js 15 (App Router), TypeScript, raw CSS (Mobbin-inspired).
 
 ## Routes
 
-- `/` — landing page with app grid
-- `/apps/[slug]` — per-app detail page
-- `/apps/[slug]/privacy` — App Store-required privacy policy per app
-- `/privacy` — index of all privacy policies
-- `/terms` — generic terms of use
+- `/` — landing page with app catalogue
+- `/apps/[slug]` — per-app detail page (hero, features, screenshots, press kit)
+- `/privacy/[slug]` — App Store-required privacy policy per app
 
 ## Add a new app
 
-Edit `src/lib/apps.ts` and add an entry to the `apps` array. Routes are
-generated statically from that list.
+Edit `src/lib/apps.ts` and append to the `APPS` array. Add matching entry to `src/lib/privacy.ts`. Drop screenshots in `public/screenshots/<slug>/`. Routes generated statically.
 
 ## Develop
 
