@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-from: 8 8 20;
+  --bg-via: 18 12 36;
+  --bg-to: 4 4 12;
+}
+
+html, body {
+  background: rgb(var(--bg-to));
+  color: #f5f5f7;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  background:
+    radial-gradient(1200px 600px at 10% -10%, rgba(168, 85, 247, 0.25), transparent 60%),
+    radial-gradient(900px 500px at 90% 10%, rgba(56, 189, 248, 0.22), transparent 60%),
+    radial-gradient(800px 600px at 50% 110%, rgba(236, 72, 153, 0.18), transparent 60%),
+    linear-gradient(180deg, rgb(var(--bg-from)), rgb(var(--bg-via)) 40%, rgb(var(--bg-to)));
+  background-attachment: fixed;
+}
+
+@layer components {
+  .glass {
+    @apply bg-white/[0.04] backdrop-blur-xl border border-white/10;
+  }
+  .glass-strong {
+    @apply bg-white/[0.06] backdrop-blur-2xl border border-white/10;
+  }
+  .text-gradient {
+    background: linear-gradient(120deg, #fff 0%, #c4b5fd 40%, #67e8f9 80%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .card-hover {
+    @apply transition-all duration-300 hover:-translate-y-1 hover:bg-white/[0.07] hover:border-white/20 hover:shadow-2xl hover:shadow-purple-500/10;
+  }
+}
+
+.grain::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.04;
+  mix-blend-mode: overlay;
+  z-index: 1;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
