@@ -1,4 +1,4 @@
-export type MockupKind = "chat" | "snail" | "split" | "scan";
+export type MockupKind = "chat" | "snail" | "split" | "scan" | "lastwhen";
 
 export interface AppEntry {
   id: string;
@@ -140,6 +140,35 @@ export const APPS: AppEntry[] = [
       "/screenshots/bizscan/3.png",
       "/screenshots/bizscan/4.png",
       "/screenshots/bizscan/5.png",
+    ],
+  },
+  {
+    id: "lastwhen",
+    number: "05",
+    name: "LastWhen",
+    sub: "Recurring Chores",
+    tag: "Productivity · Lifestyle",
+    year: "2026",
+    pitch: "When did I last water the plants? Change the filter? Call grandma? LastWhen tracks the irregular chores your brain can't hold.",
+    long: "LastWhen replaces sticky notes, calendar pings, and patched-together reminders with one place for every recurring ritual. Forgiving cadence with tolerance windows turns \"when did I last do this?\" into a clear list of what's fresh, due, and overdue — built for irregular real life, not rigid daily streaks.",
+    features: [
+      ["Forgiving cadence", "Every task gets a repeat interval and a tolerance window. Miss a watering by 2 days? Absorbed. No guilt alarms."],
+      ["Status engine", "Tasks flow fresh → due → overdue → critical based on when you last did them, so escalation is honest."],
+      ["Tide visualization", "A wavy chart of your routine health, plus a 12-month heat strip and streak counter on every ritual."],
+      ["Today widget", "Most-overdue ritual on your home screen. One tap to mark done."],
+    ],
+    accent: "#c97b4a",
+    surface: "#f1e4d4",
+    surfaceDeep: "#e0c5a4",
+    appstore: "https://apps.apple.com/us/app/lastwhen-recurring-chores/id6762074147",
+    glyph: "L",
+    mockup: "lastwhen",
+    screenshots: [
+      "/screenshots/lastwhen/1.png",
+      "/screenshots/lastwhen/2.png",
+      "/screenshots/lastwhen/3.png",
+      "/screenshots/lastwhen/4.png",
+      "/screenshots/lastwhen/5.png",
     ],
   },
 ];

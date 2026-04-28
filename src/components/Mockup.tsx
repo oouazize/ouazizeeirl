@@ -12,6 +12,7 @@ export function Mockup({ kind, accent, surface }: Props) {
     case "snail": return <SnailMock accent={accent} surface={surface} />;
     case "split": return <SplitMock accent={accent} surface={surface} />;
     case "scan": return <ScanMock accent={accent} surface={surface} />;
+    case "lastwhen": return <LastWhenMock accent={accent} surface={surface} />;
     case "chat":
     default: return <ChatMock accent={accent} surface={surface} />;
   }
@@ -205,6 +206,63 @@ function SplitMock({ accent, surface }: { accent: string; surface: string }) {
         <Expense who="Tram tickets" amt="€18.00" by="Maya paid · split 4 ways" accent="#999" />
         <Expense who="Pastéis de Belém" amt="€12.20" by="You paid · split 3 ways" accent={accent} />
         <Expense who="Airbnb" amt="€420.00" by="Sam paid · split 4 ways" accent="#999" />
+      </div>
+    </div>
+  );
+}
+
+function Ritual({ name, room, when, status, accent }: { name: string; room: string; when: string; status: "fresh" | "due" | "overdue" | "critical"; accent: string }) {
+  const dot: Record<string, string> = {
+    fresh: "#6b8e4e",
+    due: "#c9a14a",
+    overdue: accent,
+    critical: "#a13a2a",
+  };
+  return (
+    <div style={{ display: "flex", alignItems: "center", gap: 12, padding: "12px 14px", background: "white", borderRadius: 12 }}>
+      <span style={{ width: 8, height: 8, borderRadius: "50%", background: dot[status], flexShrink: 0 }} />
+      <div style={{ flex: 1, minWidth: 0 }}>
+        <div style={{ fontSize: 13, fontWeight: 500 }}>{name}</div>
+        <div style={{ fontSize: 10, opacity: 0.55, fontFamily: "var(--font-mono)", textTransform: "uppercase", letterSpacing: 1 }}>{room}</div>
+      </div>
+      <div style={{ fontSize: 11, fontFamily: "var(--font-mono)", opacity: 0.7, textAlign: "right" }}>{when}</div>
+    </div>
+  );
+}
+
+function LastWhenMock({ accent, surface }: { accent: string; surface: string }) {
+  const tide = [22, 30, 28, 38, 32, 46, 42, 58, 50, 64, 56, 70];
+  return (
+    <div style={screenStyle(surface)}>
+      <StatusBar />
+      <div style={{ padding: "20px 18px 8px" }}>
+        <div style={{ fontSize: 10, fontFamily: "var(--font-mono)", textTransform: "uppercase", letterSpacing: 1, opacity: 0.5 }}>Today · April 28</div>
+        <div style={{ fontFamily: "var(--font-display)", fontSize: 26, marginTop: 2 }}>3 overdue</div>
+      </div>
+
+      <div style={{ margin: "8px 18px 12px", padding: "14px 16px", background: "white", borderRadius: 16, boxShadow: "0 4px 12px -6px rgba(0,0,0,0.08)" }}>
+        <div style={{ fontSize: 10, fontFamily: "var(--font-mono)", textTransform: "uppercase", letterSpacing: 1, opacity: 0.5 }}>Tide · 12 weeks</div>
+        <svg viewBox="0 0 240 60" style={{ width: "100%", height: 50, marginTop: 6 }} preserveAspectRatio="none">
+          <path
+            d={`M 0 ${60 - tide[0]} ${tide.map((h, i) => `L ${(i / (tide.length - 1)) * 240} ${60 - h}`).join(" ")} L 240 60 L 0 60 Z`}
+            fill={accent}
+            fillOpacity="0.18"
+          />
+          <path
+            d={`M 0 ${60 - tide[0]} ${tide.map((h, i) => `L ${(i / (tide.length - 1)) * 240} ${60 - h}`).join(" ")}`}
+            fill="none"
+            stroke={accent}
+            strokeWidth="2"
+          />
+        </svg>
+      </div>
+
+      <div style={{ flex: 1, padding: "0 18px 18px", display: "flex", flexDirection: "column", gap: 8, overflow: "hidden" }}>
+        <div style={{ fontSize: 10, fontFamily: "var(--font-mono)", textTransform: "uppercase", letterSpacing: 1, opacity: 0.5, marginBottom: 2 }}>Up next</div>
+        <Ritual name="Water the monstera" room="Living Room" when="6d late" status="overdue" accent={accent} />
+        <Ritual name="Change AC filter" room="Kitchen" when="14d late" status="critical" accent={accent} />
+        <Ritual name="Call grandma" room="Family" when="due today" status="due" accent={accent} />
+        <Ritual name="Deep clean shower" room="Bathroom" when="in 3d" status="fresh" accent={accent} />
       </div>
     </div>
   );

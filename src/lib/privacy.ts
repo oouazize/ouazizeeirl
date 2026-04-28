@@ -201,6 +201,51 @@ export const PRIVACY: Record<string, PrivacyData> = {
       },
     ],
   },
+  lastwhen: {
+    lastUpdated: "April 11, 2026",
+    contactEmail: CONTACT,
+    summary:
+      "LastWhen runs entirely on your device. Your rituals, completion history, rooms, and templates stay local — nothing syncs to our servers. Subscriptions are processed by RevenueCat and Apple. We do not track usage or sell data.",
+    blocks: [
+      {
+        heading: "Data storage",
+        body: "All ritual data — task names, intervals, tolerance windows, completion timestamps, rooms, icons, streaks, and notes — is stored locally on your device. JSON backup imports are processed in-memory and saved locally.",
+      },
+      {
+        heading: "Information we do not collect",
+        items: [
+          "No account or sign-up required",
+          "No analytics SDK, no usage tracking",
+          "No location, contacts, photos, or microphone access",
+          "No advertising identifiers",
+        ],
+      },
+      {
+        heading: "Third-party services",
+        subsections: [
+          { label: "RevenueCat", body: "Manages LastWhen PRO subscriptions and entitlements. Receives an anonymous app user ID and purchase events from Apple." },
+          { label: "Apple", body: "Processes payments and renewals via the App Store. We never see your payment details." },
+        ],
+      },
+      {
+        heading: "Required permissions",
+        body: "LastWhen requests notification permission so widgets and reminders can surface overdue rituals. Notifications are scheduled locally on your device — no server is involved.",
+      },
+      {
+        heading: "Your control",
+        items: [
+          "Export your data as JSON at any time from Settings",
+          "Delete a ritual to permanently remove its history",
+          "Uninstalling the app removes all locally stored data",
+          "Cancel LastWhen PRO any time from your Apple ID settings",
+        ],
+      },
+      {
+        heading: "Children",
+        body: "LastWhen is not directed at children under 13 and we do not knowingly collect data from them.",
+      },
+    ],
+  },
   bizscan: {
     lastUpdated: "March 2024",
     contactEmail: CONTACT,
