@@ -8,3 +8,6 @@ dist
 .DS_Store
 next-env.d.ts
 .vercel
+
+# playwright mcp artifacts
+.playwright-mcp

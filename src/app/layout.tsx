@@ -17,9 +17,9 @@ const mono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "devapps — Focused iOS tools",
+  title: "Focused iOS tools",
   description:
-    "A small studio building focused iOS apps. No subscriptions, no dark patterns, no analytics empires.",
+    "A one-person workshop building focused iOS apps. No subscriptions, no dark patterns, no analytics empires.",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

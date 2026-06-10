@@ -1,6 +1,7 @@
 export interface PrivacyBlock {
   heading: string;
   body?: string;
+  paragraphs?: string[];
   items?: string[];
   subsections?: { label: string; body: string }[];
 }
@@ -14,297 +15,70 @@ export interface PrivacyData {
 
 const CONTACT = "oussamaouaziz123@gmail.com";
 
-export const PRIVACY: Record<string, PrivacyData> = {
-  notechat: {
-    lastUpdated: "May 23, 2025",
-    contactEmail: CONTACT,
-    summary:
-      "NoteChat reads your authorized Notion content only when you ask a question. Authentication tokens, chat history, and cached pages live on your device. Prompts pass through OpenAI for AI processing and are not retained beyond the response.",
-    blocks: [
-      {
-        heading: "Information we collect",
-        subsections: [
-          { label: "Email address", body: "Used for account creation and authentication through Notion OAuth." },
-          { label: "Notion workspace data", body: "Only the specific pages and databases you explicitly authorize us to access through Notion's permission system." },
-          { label: "Device compatibility", body: "Device type and OS version to ensure app compatibility." },
-          { label: "Authentication tokens", body: "Securely stored on your device to maintain your connection to Notion." },
-          { label: "App settings", body: "Your preferences and configuration stored locally on your device." },
-          { label: "Chat conversations", body: "Your conversations with our AI about your Notion content (processed by OpenAI and temporarily cached locally)." },
-        ],
-      },
-      {
-        heading: "How we use your information",
-        items: [
-          "Provide AI-powered chat with your authorized Notion content",
-          "Securely maintain your connection to Notion",
-          "Fix bugs and improve app performance",
-          "Manage subscriptions through RevenueCat",
-          "Comply with applicable laws and regulations",
-        ],
-      },
-      {
-        heading: "Third-party services",
-        subsections: [
-          { label: "Notion", body: "For accessing your authorized workspace content." },
-          { label: "OpenAI", body: "For AI processing of your chat conversations." },
-          { label: "RevenueCat", body: "For subscription management and payment processing." },
-        ],
-      },
-      {
-        heading: "Apple platform services",
-        body: "We use Apple-provided platform services to ensure secure and reliable app operation. The Keychain stores Notion authentication tokens. App preferences and cached Notion content are stored locally using Apple's standard storage APIs. Chat history and app settings are stored using Apple's standard local storage. These services process data locally on your device and follow Apple's privacy standards.",
-      },
-      {
-        heading: "Data retention",
-        items: [
-          "Authentication tokens: stored on your device until you sign out or delete the app",
-          "Chat history: stored locally until you disconnect Notion or delete the app",
-          "Notion content cache: stored locally until you disconnect Notion or delete the app",
-          "App settings: stored locally until you delete the app",
-        ],
-      },
-      {
-        heading: "Your control",
-        items: [
-          "Revoke our access to your Notion workspace at any time through Notion's settings",
-          "Deleting the app removes all locally stored data including authentication tokens",
-          "Cancel subscriptions through your Apple ID settings",
-          "Disconnect your Notion account in Settings to clear chat history and cached content",
-        ],
-      },
-      {
-        heading: "Children",
-        body: "NoteChat is not directed at children under 13 and we do not knowingly collect data from them.",
-      },
-    ],
-  },
-  snail: {
-    lastUpdated: "October 12, 2025",
-    contactEmail: CONTACT,
-    summary:
-      "Snail Identifier collects only what's needed to identify snails and improve the experience. Camera, photo, and location data are accessed with permission and used to deliver identifications and habitat information. We do not sell, rent, or trade your personal information.",
-    blocks: [
-      {
-        heading: "Information we collect",
-        subsections: [
-          { label: "Personal information", body: "Name and email address collected voluntarily during account creation or when contacting malacologists." },
-          { label: "Usage information", body: "Device type, IP address, browser type, operating system, identification requests, and app usage patterns." },
-          { label: "Camera and photos", body: "With permission, the app accesses your camera and photo library to capture snail images for AI-powered identification." },
-          { label: "Location", body: "With permission, precise GPS or Wi-Fi location data may be collected to improve identification accuracy and provide habitat information." },
-        ],
-      },
-      {
-        heading: "How we use your information",
-        items: [
-          "Provide and improve the service",
-          "Personalize the user experience",
-          "Communicate updates, promotions, and news",
-          "Analyze usage patterns",
-          "Comply with legal obligations",
-        ],
-      },
-      {
-        heading: "Information sharing",
-        body: "We do not sell, rent, or trade your personal information to third parties. Information may be shared with service providers, for legal compliance, or in connection with mergers or asset sales.",
-      },
-      {
-        heading: "Security",
-        body: "Data is encrypted during transmission and storage, though no method is entirely secure.",
-      },
-      {
-        heading: "Your choices",
-        body: "You can decline information sharing, opt out of promotional emails, and manage permissions through your device settings.",
-      },
-      {
-        heading: "Children",
-        body: "Snail Identifier is not intended for children under 13.",
-      },
-    ],
-  },
-  spliter: {
-    lastUpdated: "March 11, 2026",
-    contactEmail: CONTACT,
-    summary:
-      "Spliter helps you track and split shared expenses. Your account, expenses, and group data are stored to power the app and shared only with the people you invite. We do not sell your personal information. Receipt photos used for OCR scanning are processed but not retained.",
-    blocks: [
-      {
-        heading: "User-provided information",
-        items: [
-          "Account details: name, email, password",
-          "Expense records: amounts, descriptions, currencies, categories, participants",
-          "Group information: names and member invitations",
-          "Invitation emails for friends",
-          "Receipt photos for OCR scanning (processed but not retained)",
-        ],
-      },
-      {
-        heading: "Automatically collected information",
-        items: [
-          "Device specifics: type, OS version, identifiers",
-          "Usage metrics: features accessed, screens viewed, session length",
-          "Diagnostic data: crash and error reports",
-          "Push notification tokens",
-        ],
-      },
-      {
-        heading: "From third parties",
-        body: "If you sign in via a third-party provider, we receive basic profile information (name, email) from that provider.",
-      },
-      {
-        heading: "How we use your information",
-        items: [
-          "Operate and enhance the platform",
-          "Verify identity and secure accounts",
-          "Display expenses and settlements",
-          "Send notifications",
-          "Answer support inquiries",
-          "Improve features through usage analysis",
-          "Meet legal requirements",
-        ],
-      },
-      {
-        heading: "Data sharing",
-        body: "We share information with other app users (expense details within your groups), service vendors (hosting, notifications, analytics), legal authorities when required, and acquiring companies in merger scenarios. We do not sell your personal information.",
-      },
-      {
-        heading: "Data retention",
-        body: "Account and expense data remain stored while your account is active. If you delete your account, we delete or anonymize your personal information within 30 days, with limited legal exceptions. Receipt images are not retained after scanning.",
-      },
-      {
-        heading: "Security",
-        items: [
-          "Data encryption in transit and at rest",
-          "Database row-level security",
-          "Server-side credential storage",
-          "Regular security audits",
-        ],
-      },
-      {
-        heading: "Your rights",
-        items: [
-          "Access your data",
-          "Correct inaccurate information",
-          "Delete your account",
-          "Data portability",
-          "Object to certain processing",
-        ],
-      },
-      {
-        heading: "Third-party services",
-        items: [
-          "Supabase — database and authentication",
-          "OneSignal — notifications",
-          "OpenAI — receipt processing",
-          "Firebase / Google Analytics — usage data",
-          "Sentry — error tracking",
-        ],
-      },
-      {
-        heading: "Children",
-        body: "Spliter is not directed at children under 13. We do not knowingly collect minors' data.",
-      },
-    ],
-  },
-  lastwhen: {
-    lastUpdated: "April 28, 2026",
-    contactEmail: CONTACT,
-    summary:
-      "LastWhen helps you track irregular recurring tasks across your devices. We collect account information and task data to power sync and reminders. We do not sell your data or use it for advertising.",
-    blocks: [
-      {
-        heading: "Information we collect",
-        subsections: [
-          {
-            label: "You provide",
-            body: "Your email address and name when you create an account or sign in via Apple or Google. Task names, cadences, tolerance windows, rooms, and completion history you create in the app.",
-          },
-          {
-            label: "Collected automatically",
-            body: "Device type, OS version, and unique device identifiers. Features used, screens visited, actions taken, and session durations. Crash and error reports. Push notification tokens to deliver task reminders.",
-          },
-          {
-            label: "From third parties",
-            body: "If you sign in via Apple or Google, we receive your name and email from that provider. When you subscribe, our payment provider receives your purchase token from the App Store or Google Play — we do not store payment card details.",
-          },
-        ],
-      },
-      {
-        heading: "How we use your information",
-        items: [
-          "Provide, operate, and sync your task data across devices",
-          "Authenticate your identity and secure your account",
-          "Send reminders and notifications for due or overdue tasks",
-          "Process and manage your subscription",
-          "Analyze usage patterns to improve features and fix bugs",
-          "Respond to support requests and comply with legal obligations",
-        ],
-      },
-      {
-        heading: "Data sharing",
-        body: "We share your information only with service providers who operate our infrastructure (authentication, analytics, error tracking, push notifications, payment processing), when required by law, or in connection with a business transfer. We do not sell your personal information.",
-      },
-      {
-        heading: "Data retention",
-        body: "We retain your account and task data while your account is active. If you delete your account, we delete or anonymize your personal information within 30 days, except where retention is required by law.",
-      },
-      {
-        heading: "Security",
-        items: [
-          "Data encrypted in transit and at rest",
-          "Access controls so users can only access their own data",
-          "Secrets and credentials stored server-side, never exposed to clients",
-          "Regular security reviews and dependency updates",
-        ],
-      },
-      {
-        heading: "Your rights",
-        items: [
-          "Access — request a copy of your personal information",
-          "Correction — request correction of inaccurate or incomplete data",
-          "Deletion — delete your account in-app under Profile → Delete Account",
-          "Portability — request your data in a machine-readable format",
-          "Opt out of analytics — disable usage analytics in app settings",
-        ],
-      },
-      {
-        heading: "Required permissions",
-        body: "LastWhen requests notification permission to deliver task reminders to your device.",
-      },
-      {
-        heading: "Children",
-        body: "LastWhen is not directed at children under 13 (or under 16 in the EU). We do not knowingly collect personal information from children.",
-      },
-    ],
-  },
-  bizscan: {
-    lastUpdated: "March 2024",
-    contactEmail: CONTACT,
-    summary:
-      "BizScan operates entirely on your device. Business card images, extracted text, app settings, and exports stay local. Nothing is uploaded to our servers.",
-    blocks: [
-      {
-        heading: "Data storage",
-        body: "All business card information, app settings, and exported data remain stored locally on your device exclusively.",
-      },
-      {
-        heading: "Third-party services",
-        subsections: [
-          { label: "OpenAI", body: "Processes images for text extraction via API. Data is not retained after processing." },
-          { label: "RevenueCat", body: "Handles subscription and purchase information only." },
-        ],
-      },
-      {
-        heading: "Required permissions",
-        body: "The app requires camera access for scanning and storage access for saving cards and exports.",
-      },
-      {
-        heading: "Your control",
-        body: "You retain complete authority over your information. Delete data by clearing app data, uninstalling the app, or exporting in standard formats.",
-      },
-      {
-        heading: "Children",
-        body: "BizScan is not intended for children under 13.",
-      },
-    ],
-  },
+export const DEVELOPER = "OUSSAMA OUAZIZE";
+
+export const UNIVERSAL_PRIVACY: PrivacyData = {
+  lastUpdated: "June 10, 2026",
+  contactEmail: CONTACT,
+  summary:
+    "This document, referred to as the “Privacy Policy” (hereinafter referred to as the “Policy”), outlines the terms governing the collection and utilization of Personal Information from Users (referred to as “You”) by “OUSSAMA OUAZIZE” (referred to as “OUSSAMA OUAZIZE”) during the download, installation, and use of the mobile applications published by “OUSSAMA OUAZIZE” (hereinafter referred to as the “Mobile applications”).",
+  blocks: [
+    {
+      heading: "Consent of the user",
+      body: "By downloading, installing, and using the Mobile applications, you (also referred to as the “User”) voluntarily provide written consent for the processing of your Personal Information as specified in this Policy.",
+    },
+    {
+      heading: "General terms",
+      paragraphs: [
+        "1.1. This Policy constitutes an integral part of the End User License Agreement (EULA) for the Mobile applications. By downloading and utilizing the Mobile applications, you fully accept the terms outlined in this Policy.",
+        "1.2. The methods for processing Personal Information include actions such as collection, recording, systematization, storage, updating, extraction, use, transfer, depersonalization, blocking, deletion, and destruction, with or without automated facilities.",
+        "1.3. Terms from the EULA and other agreements with the User are applicable unless explicitly stated otherwise in this Policy.",
+      ],
+    },
+    {
+      heading: "Personal information",
+      paragraphs: [
+        "2.1. When using the Mobile application, the User does not actively provide personal information, and “OUSSAMA OUAZIZE” does not collect and store data that enables User identification.",
+        "2.2. Personal Information, as defined in this Policy, includes the name and email address you provide when creating an account or signing in via Apple or Google, together with the content you create inside the application. Personal Information also includes the User's email address provided during product surveys or support requests.",
+        "2.3. The Mobile applications may with your permission, access your camera or photo library, your location, or send you notifications. These permissions are optional and can be revoked at any time in your device settings.",
+        "2.4. The User acknowledges the use of third-party software in the Mobile application, which may collect and transmit depersonalized data.",
+      ],
+    },
+    {
+      heading: "Third-party software",
+      body: "Third-party software may encompass analytic systems such as “Sentry” and “Firebase.” The collected data may include device information, query data, and other details of user activity. The collection and use of this data are subject to the respective third-party privacy policies.",
+    },
+    {
+      heading: "Children's privacy",
+      body: "“OUSSAMA OUAZIZE” does not intentionally collect personal data from children under 16. If such information is inadvertently obtained, it will be promptly deleted upon discovery.",
+    },
+    {
+      heading: "Purposes of personal information processing",
+      body: "“OUSSAMA OUAZIZE” may use Personal Information for communication, marketing, statistical research, and targeting advertising based on depersonalized data.",
+    },
+    {
+      heading: "User's rights",
+      body: "The User has rights to be informed, access, correct, restrict, object, withdraw consent, delete personal data, and receive data for portability. These rights can be exercised by contacting “OUSSAMA OUAZIZE”.",
+    },
+    {
+      heading: "Data retention",
+      body: "Personal Information will be stored for as long as necessary or permitted by law. “OUSSAMA OUAZIZE” periodically reviews data processing systems for relevance.",
+    },
+    {
+      heading: "Data protection",
+      body: "“OUSSAMA OUAZIZE” stores and protects Personal Information against unauthorized access according to internal terms and regulations.",
+    },
+    {
+      heading: "Transfer of personal information",
+      body: "“OUSSAMA OUAZIZE” may transfer Personal Information to third parties with User consent, for Mobile application functionality, third-party service providers, or asset transfers.",
+    },
+    {
+      heading: "Amendments and deletion",
+      body: `For questions, amendments, or deletion requests regarding Personal Information, users can contact “OUSSAMA OUAZIZE” at ${CONTACT}.`,
+    },
+    {
+      heading: "Amendments to privacy policy",
+      body: "“OUSSAMA OUAZIZE” may unilaterally amend or terminate this Policy without prior notice. Users are advised to regularly check the current version.",
+    },
+  ],
 };

@@ -1,65 +1,55 @@
-import { APPS, STUDIO } from "@/lib/apps";
-import { Topbar } from "@/components/Topbar";
-import { Footer } from "@/components/Footer";
+import { APPS } from "@/lib/apps";
 import { Marquee } from "@/components/Marquee";
-import { Catalogue } from "@/components/Catalogue";
+import { AppGrid } from "@/components/AppGrid";
+
+const shell = "mx-auto w-full max-w-[1280px] px-8 max-md:px-5";
 
 export default function HomePage() {
   return (
     <>
-      <div className="shell">
-        <Topbar active="index" />
+      <div className={shell}>
         <Hero />
       </div>
       <Marquee />
-      <div className="shell">
-        <Catalogue apps={APPS} />
+      <div className={shell}>
+        <AppGrid apps={APPS} />
         <About />
       </div>
-      <Footer />
     </>
   );
 }
 
 function Hero() {
   return (
-    <section style={{ padding: "80px 0 100px" }}>
-      <div className="rise rise-1 eyebrow" style={{ marginBottom: 24 }}>
-        Vol. 01 · 04 apps in rotation
+    <section className="pb-[100px] pt-20">
+      <div className="mb-6 inline-flex animate-rise items-center gap-2 font-mono text-[0.72rem] font-medium uppercase tracking-[0.04em] text-muted before:content-[''] before:h-px before:w-4 before:bg-muted">
+        05 apps · iOS
       </div>
 
-      <h1 className="rise rise-2" style={{
-        fontFamily: "var(--font-display)",
-        fontWeight: 600,
-        fontSize: "clamp(2rem, 8vw, 6rem)",
-        lineHeight: 1.02,
-        letterSpacing: "-0.045em",
-        margin: "0 0 28px",
-      }}>
-        Small tools.<br />
-        Made carefully,<br />
+      <h1 className="mb-7 animate-rise font-display text-[clamp(2rem,8vw,6rem)] font-semibold leading-[1.02] tracking-[-0.045em] [animation-delay:80ms]">
+        Small tools.
+        <br />
+        Made carefully,
+        <br />
         for the phone in your pocket.
       </h1>
 
-      <div className="rise rise-3 grid-hero">
-        <p style={{
-          fontSize: "1.0625rem",
-          lineHeight: 1.55,
-          margin: 0,
-          maxWidth: 600,
-          color: "var(--muted)",
-        }}>
-          {STUDIO.name} is a one-person studio building focused iOS apps. No subscriptions you forget about,
-          no dark patterns, no analytics empires. Just small, useful objects you keep on your home screen.
+      <div className="mt-12 grid animate-rise grid-cols-[1.2fr_1fr] items-end gap-[60px] [animation-delay:140ms] max-[960px]:grid-cols-1 max-[960px]:items-start max-[960px]:gap-8">
+        <p className="m-0 max-w-[600px] text-[1.0625rem] leading-relaxed text-muted">
+          A one-person workshop building focused iOS apps. No subscriptions you forget about,
+          no dark patterns, no analytics empires — just small, useful objects you keep on your home screen.
         </p>
 
-        <div style={{ display: "flex", flexDirection: "column", gap: 14, alignItems: "flex-start" }}>
-          <a href="#apps" className="btn">
-            Browse the catalogue
-            <span className="btn__arrow">→</span>
+        <div className="flex flex-col items-start gap-3.5">
+          <a
+            href="#apps"
+            className="group inline-flex items-center gap-2 rounded-lg border border-ink bg-ink px-4 py-2.5 font-display text-sm font-medium text-white transition hover:opacity-85"
+          >
+            Browse the apps
+            <span className="inline-block transition-transform group-hover:translate-x-0.5">→</span>
           </a>
-          <div className="mono" style={{ color: "var(--muted)" }}>
-            ↓ scroll · 4 entries
+          <div className="font-mono text-[0.72rem] font-medium uppercase tracking-[0.04em] text-muted">
+            ↓ scroll · 5 entries
           </div>
         </div>
       </div>
@@ -69,31 +59,27 @@ function Hero() {
 
 function About() {
   const stats: [string, string][] = [
-    ["04", "apps shipped"],
+    ["05", "apps shipped"],
     ["100%", "on-device when possible"],
     ["0", "trackers, ever"],
   ];
   return (
-    <section id="about" style={{ padding: "120px 0", borderTop: "1px solid var(--rule)" }}>
-      <div className="grid-about">
+    <section id="about" className="border-t border-rule py-[120px]">
+      <div className="grid grid-cols-[1fr_1.4fr] items-start gap-20 max-[960px]:grid-cols-1 max-[960px]:gap-8">
         <div>
-          <div className="eyebrow" style={{ marginBottom: 20 }}>The studio</div>
-          <h2 style={{
-            fontFamily: "var(--font-display)",
-            fontWeight: 600,
-            fontSize: "clamp(1.75rem, 3.5vw, 2.5rem)",
-            lineHeight: 1.05,
-            letterSpacing: "-0.03em",
-            margin: 0,
-          }}>
-            One person.<br />
+          <div className="mb-5 inline-flex items-center gap-2 font-mono text-[0.72rem] font-medium uppercase tracking-[0.04em] text-muted before:content-[''] before:h-px before:w-4 before:bg-muted">
+            The workshop
+          </div>
+          <h2 className="m-0 font-display text-[clamp(1.75rem,3.5vw,2.5rem)] font-semibold leading-[1.05] tracking-[-0.03em]">
+            One person.
+            <br />
             Many small ideas.
           </h2>
         </div>
 
-        <div style={{ fontSize: "1.0625rem", lineHeight: 1.65, color: "var(--ink-soft)" }}>
-          <p style={{ marginTop: 0 }}>
-            {STUDIO.name} is a workshop, not a startup. Each app is built to do one thing well, ship at a fair
+        <div className="text-[1.0625rem] leading-relaxed text-ink-soft">
+          <p className="mt-0">
+            A workshop, not a startup. Each app is built to do one thing well, ship at a fair
             one-time price, and stay out of your way.
           </p>
           <p>
@@ -101,18 +87,11 @@ function About() {
             would I keep this on my own home screen?
           </p>
 
-          <dl className="about-stats">
+          <dl className="mt-14 grid grid-cols-3 gap-8 border-t border-rule pt-8 max-[600px]:grid-cols-1 max-[600px]:gap-5">
             {stats.map(([n, l]) => (
               <div key={l}>
-                <div style={{
-                  fontFamily: "var(--font-display)",
-                  fontSize: "2.5rem",
-                  fontWeight: 600,
-                  lineHeight: 1,
-                  letterSpacing: "-0.03em",
-                  color: "var(--ink)",
-                }}>{n}</div>
-                <div className="mono" style={{ color: "var(--muted)", marginTop: 10 }}>{l}</div>
+                <div className="font-display text-[2.5rem] font-semibold leading-none tracking-[-0.03em] text-ink">{n}</div>
+                <div className="mt-2.5 font-mono text-[0.72rem] font-medium uppercase tracking-[0.04em] text-muted">{l}</div>
               </div>
             ))}
           </dl>

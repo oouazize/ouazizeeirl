@@ -8,23 +8,8 @@ const ITEMS = [
 
 export function Marquee() {
   return (
-    <section style={{
-      borderTop: "1px solid var(--rule)",
-      borderBottom: "1px solid var(--rule)",
-      overflow: "hidden",
-      padding: "16px 0",
-      background: "var(--paper-warm)",
-    }}>
-      <div style={{
-        display: "flex", gap: 32, whiteSpace: "nowrap",
-        animation: "marq 50s linear infinite",
-        fontFamily: "var(--font-mono)",
-        fontSize: "0.72rem",
-        fontWeight: 500,
-        textTransform: "uppercase",
-        letterSpacing: "0.04em",
-        color: "var(--muted)",
-      }}>
+    <section className="overflow-hidden border-y border-rule bg-paper-warm py-4">
+      <div className="flex animate-marquee gap-8 whitespace-nowrap font-mono text-[0.72rem] font-medium uppercase tracking-[0.04em] text-muted">
         {[...ITEMS, ...ITEMS].map((t, i) => (
           <Fragment key={i}>
             <span>{t}</span>
