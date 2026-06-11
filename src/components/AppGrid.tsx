@@ -1,5 +1,5 @@
 import Image from "next/image";
-import type { AppEntry } from "@/lib/apps";
+import type { AppEntry } from "@/lib/appstore";
 
 export function AppGrid({ apps }: { apps: AppEntry[] }) {
   return (
@@ -58,22 +58,24 @@ function AppCard({ app }: { app: AppEntry }) {
         </a>
       </div>
 
-      <div className="grid grid-cols-3 gap-2.5">
-        {app.screenshots.slice(0, 3).map((src, i) => (
-          <div
-            key={src}
-            className="relative aspect-[9/19.5] overflow-hidden rounded-[14px] bg-paper-deep shadow-[0_0_0_1px_var(--color-rule)]"
-          >
-            <Image
-              src={src}
-              alt={`${app.name} screenshot ${i + 1}`}
-              fill
-              sizes="(max-width: 720px) 30vw, 180px"
-              className="object-cover"
-            />
-          </div>
-        ))}
-      </div>
+      {app.screenshots.length > 0 && (
+        <div className="grid grid-cols-3 gap-2.5">
+          {app.screenshots.slice(0, 3).map((src, i) => (
+            <div
+              key={src}
+              className="relative aspect-[9/19.5] overflow-hidden rounded-[14px] bg-paper-deep shadow-[0_0_0_1px_var(--color-rule)]"
+            >
+              <Image
+                src={src}
+                alt={`${app.name} screenshot ${i + 1}`}
+                fill
+                sizes="(max-width: 720px) 30vw, 180px"
+                className="object-cover"
+              />
+            </div>
+          ))}
+        </div>
+      )}
     </article>
   );
 }

@@ -1,6 +1,11 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  images: {
+    remotePatterns: [
+      { protocol: "https", hostname: "**.mzstatic.com" },
+    ],
+  },
   async redirects() {
     return [
       // Old per-app policy URLs (linked from App Store Connect) → universal policy

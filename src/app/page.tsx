@@ -1,29 +1,34 @@
-import { APPS } from "@/lib/apps";
+import { getApps } from "@/lib/appstore";
 import { Marquee } from "@/components/Marquee";
 import { AppGrid } from "@/components/AppGrid";
 
+export const revalidate = 86400;
+
 const shell = "mx-auto w-full max-w-[1280px] px-8 max-md:px-5";
 
-export default function HomePage() {
+export default async function HomePage() {
+  const apps = await getApps();
+  const count = String(apps.length).padStart(2, "0");
+
   return (
     <>
       <div className={shell}>
-        <Hero />
+        <Hero count={count} />
       </div>
       <Marquee />
       <div className={shell}>
-        <AppGrid apps={APPS} />
-        <About />
+        <AppGrid apps={apps} />
+        <About count={count} />
       </div>
     </>
   );
 }
 
-function Hero() {
+function Hero({ count }: { count: string }) {
   return (
     <section className="pb-[100px] pt-20">
       <div className="mb-6 inline-flex animate-rise items-center gap-2 font-mono text-[0.72rem] font-medium uppercase tracking-[0.04em] text-muted before:content-[''] before:h-px before:w-4 before:bg-muted">
-        05 apps · iOS
+        {count} apps · iOS
       </div>
 
       <h1 className="mb-7 animate-rise font-display text-[clamp(2rem,8vw,6rem)] font-semibold leading-[1.02] tracking-[-0.045em] [animation-delay:80ms]">
@@ -49,7 +54,7 @@ function Hero() {
             <span className="inline-block transition-transform group-hover:translate-x-0.5">→</span>
           </a>
           <div className="font-mono text-[0.72rem] font-medium uppercase tracking-[0.04em] text-muted">
-            ↓ scroll · 5 entries
+            ↓ scroll · {count} entries
           </div>
         </div>
       </div>
@@ -57,9 +62,9 @@ function Hero() {
   );
 }
 
-function About() {
+function About({ count }: { count: string }) {
   const stats: [string, string][] = [
-    ["05", "apps shipped"],
+    [count, "apps shipped"],
     ["100%", "on-device when possible"],
     ["0", "trackers, ever"],
   ];
