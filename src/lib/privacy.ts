@@ -18,7 +18,7 @@ const CONTACT = "oussamaouaziz123@gmail.com";
 export const DEVELOPER = "OUSSAMA OUAZIZE";
 
 export const UNIVERSAL_PRIVACY: PrivacyData = {
-  lastUpdated: "June 10, 2026",
+  lastUpdated: "July 30, 2026",
   contactEmail: CONTACT,
   summary:
     "This document, referred to as the “Privacy Policy” (hereinafter referred to as the “Policy”), outlines the terms governing the collection and utilization of Personal Information from Users (referred to as “You”) by “OUSSAMA OUAZIZE” (referred to as “OUSSAMA OUAZIZE”) during the download, installation, and use of the mobile applications published by “OUSSAMA OUAZIZE” (hereinafter referred to as the “Mobile applications”).",
@@ -47,6 +47,10 @@ export const UNIVERSAL_PRIVACY: PrivacyData = {
     {
       heading: "Third-party software",
       body: "Third-party software may encompass analytic systems such as “Sentry” and “Firebase.” The collected data may include device information, query data, and other details of user activity. The collection and use of this data are subject to the respective third-party privacy policies.",
+    },
+    {
+      heading: "Third-party AI services",
+      body: "Some Mobile applications may send content you voluntarily submit, such as photos or video frames, to third-party AI services, including OpenAI and Google Gemini, in order to analyze that content and return results inside the application. This content is sent only when you request the feature, is used solely to provide the requested functionality, and is not used by “OUSSAMA OUAZIZE” to train AI models. The processing of this data is subject to the respective third-party privacy policies.",
     },
     {
       heading: "Children's privacy",
