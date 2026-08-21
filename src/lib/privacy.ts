@@ -18,7 +18,7 @@ const CONTACT = "oussamaouaziz123@gmail.com";
 export const DEVELOPER = "OUSSAMA OUAZIZE";
 
 export const UNIVERSAL_PRIVACY: PrivacyData = {
-  lastUpdated: "July 30, 2026",
+  lastUpdated: "August 18, 2026",
   contactEmail: CONTACT,
   summary:
     "This document, referred to as the “Privacy Policy” (hereinafter referred to as the “Policy”), outlines the terms governing the collection and utilization of Personal Information from Users (referred to as “You”) by “OUSSAMA OUAZIZE” (referred to as “OUSSAMA OUAZIZE”) during the download, installation, and use of the mobile applications published by “OUSSAMA OUAZIZE” (hereinafter referred to as the “Mobile applications”).",
@@ -38,7 +38,7 @@ export const UNIVERSAL_PRIVACY: PrivacyData = {
     {
       heading: "Personal information",
       paragraphs: [
-        "2.1. When using the Mobile application, the User does not actively provide personal information, and “OUSSAMA OUAZIZE” does not collect and store data that enables User identification.",
+        "2.1. Most Mobile applications can be used without creating an account, and “OUSSAMA OUAZIZE” does not build profiles that identify you by name across applications. Where an application does ask for information about you, such as a first name, a photograph, or the content you create, that information is described in this Policy and is processed only for the purposes stated here.",
         "2.2. Personal Information, as defined in this Policy, includes the name and email address you provide when creating an account or signing in via Apple or Google, together with the content you create inside the application. Personal Information also includes the User's email address provided during product surveys or support requests.",
         "2.3. The Mobile applications may with your permission, access your camera or photo library, your location, or send you notifications. These permissions are optional and can be revoked at any time in your device settings.",
         "2.4. The User acknowledges the use of third-party software in the Mobile application, which may collect and transmit depersonalized data.",
@@ -47,6 +47,10 @@ export const UNIVERSAL_PRIVACY: PrivacyData = {
     {
       heading: "Third-party software",
       body: "Third-party software may encompass analytic systems such as “Sentry” and “Firebase.” The collected data may include device information, query data, and other details of user activity. The collection and use of this data are subject to the respective third-party privacy policies.",
+    },
+    {
+      heading: "Face data and selfies",
+      body: "Some Mobile applications ask you to take a selfie so the application can write you a compliment about it, and because such a photo shows your face we treat it as face data. The photo is sent, only when you request that feature and only after you agree on a consent screen, to a third-party AI service that analyses it and returns a short piece of written text; no facial recognition is performed, and no biometric identifier, face template, or face embedding is created, stored, or used to identify you. \u201cOUSSAMA OUAZIZE\u201d keeps no copy on any server: the photo is held in memory for the length of the request and written to no database, storage, or log, while the AI service retains it for up to 30 days for abuse monitoring and does not use it to train its models. A copy remains on your own device so your saved cards keep their picture, and \u201cDelete everything\u201d in the application\u2019s Settings erases it along with every card, message, and note. You may withdraw your consent at any time using the AI switch in Settings or by contacting \u201cOUSSAMA OUAZIZE\u201d.",
     },
     {
       heading: "Third-party AI services",
