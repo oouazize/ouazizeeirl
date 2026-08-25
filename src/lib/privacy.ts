@@ -18,7 +18,7 @@ const CONTACT = "oussamaouaziz123@gmail.com";
 export const DEVELOPER = "OUSSAMA OUAZIZE";
 
 export const UNIVERSAL_PRIVACY: PrivacyData = {
-  lastUpdated: "August 18, 2026",
+  lastUpdated: "August 25, 2026",
   contactEmail: CONTACT,
   summary:
     "This document, referred to as the “Privacy Policy” (hereinafter referred to as the “Policy”), outlines the terms governing the collection and utilization of Personal Information from Users (referred to as “You”) by “OUSSAMA OUAZIZE” (referred to as “OUSSAMA OUAZIZE”) during the download, installation, and use of the mobile applications published by “OUSSAMA OUAZIZE” (hereinafter referred to as the “Mobile applications”).",
@@ -49,8 +49,29 @@ export const UNIVERSAL_PRIVACY: PrivacyData = {
       body: "Third-party software may encompass analytic systems such as “Sentry” and “Firebase.” The collected data may include device information, query data, and other details of user activity. The collection and use of this data are subject to the respective third-party privacy policies.",
     },
     {
-      heading: "Face data and selfies",
-      body: "Some Mobile applications ask you to take a selfie so the application can write you a compliment about it, and because such a photo shows your face we treat it as face data. The photo is sent, only when you request that feature and only after you agree on a consent screen, to a third-party AI service that analyses it and returns a short piece of written text; no facial recognition is performed, and no biometric identifier, face template, or face embedding is created, stored, or used to identify you. \u201cOUSSAMA OUAZIZE\u201d keeps no copy on any server: the photo is held in memory for the length of the request and written to no database, storage, or log, while the AI service retains it for up to 30 days for abuse monitoring and does not use it to train its models. A copy remains on your own device so your saved cards keep their picture, and \u201cDelete everything\u201d in the application\u2019s Settings erases it along with every card, message, and note. You may withdraw your consent at any time using the AI switch in Settings or by contacting \u201cOUSSAMA OUAZIZE\u201d.",
+      heading: "Face data and photos of you",
+      subsections: [
+        {
+          label: "What is collected",
+          body: "Some Mobile applications ask you to provide a photograph of yourself so the application can deliver its core feature. In the compliment application this is a selfie the application writes a compliment about; in the virtual try-on application \u201cFitly\u201d these are a full-body photo used to show outfits on you and an optional head-and-shoulders photo used to show hairstyles on you, together with the outfit screenshot or haircut photo you pick for each look. Because such photographs show your face, we treat them as face data. Photos are collected only from your own device, and only when you select them from your photo library or take them with the camera yourself \u2014 the applications perform no background or automatic capture.",
+        },
+        {
+          label: "How it is used and shared",
+          body: "A photo is sent only when you request the feature that needs it, and only after you have accepted an in-app consent screen that identifies the recipients. The photo travels over an encrypted (HTTPS) connection to our processing endpoint and is forwarded to a third-party AI service \u2014 for Fitly, Google (Gemini API) and OpenAI \u2014 solely to generate the requested result (an edited image, or a short piece of written text), which is returned to your device. The photos are used for no other purpose: never for advertising, never sold, and not used by \u201cOUSSAMA OUAZIZE\u201d or, under the API terms we operate on, by the AI providers to train AI models.",
+        },
+        {
+          label: "No biometric identification",
+          body: "No facial recognition is performed by any Mobile application. No face template, faceprint, face embedding, or other biometric identifier is created, derived, stored, or used to identify or authenticate you, and none is shared with anyone.",
+        },
+        {
+          label: "Retention and storage",
+          body: "\u201cOUSSAMA OUAZIZE\u201d operates no database, object storage, or log that holds your photos: they exist in memory only for the seconds a request takes and are discarded when the response is returned. The AI providers process them transiently to fulfil the request; any short-lived retention a provider performs for abuse monitoring (up to 30 days for some services) is governed by that provider\u2019s published policies and is not used to train models. Your photos and every generated result are stored only on your own device, for as long as you keep them.",
+        },
+        {
+          label: "Deletion and withdrawal of consent",
+          body: "Deleting a saved item removes its images from your device. The application\u2019s Settings include a control (\u201cClear my data\u201d in Fitly\u2019s Settings \u2192 Privacy & data; \u201cDelete everything\u201d in the compliment application) that erases your photos, everything generated from them, and your AI processing permission. You may withdraw the AI processing permission at any time in the application\u2019s Settings, after which nothing is sent until you agree again, or by contacting \u201cOUSSAMA OUAZIZE\u201d.",
+        },
+      ],
     },
     {
       heading: "Third-party AI services",
