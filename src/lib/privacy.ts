@@ -78,6 +78,10 @@ export const UNIVERSAL_PRIVACY: PrivacyData = {
       ],
     },
     {
+      heading: "Website analytics",
+      body: "This website uses PostHog (servers in the European Union) to count page views and clicks on App Store buttons. It runs without cookies or local storage, so each visit is anonymous and is not linked to earlier visits or to any app account. IP addresses are discarded by PostHog and not stored, no session recordings are made, and browsers that send a Do Not Track signal are not measured. The data is used only to understand which pages are useful.",
+    },
+    {
       heading: "Notifications",
       body: "Some Mobile applications, with your permission, schedule reminders (for example weekend tracking tips in “Paw”). These reminders are scheduled locally on your device; no push token or personal data is sent to a server for them. You can turn them off in the application’s Settings or in your device settings at any time.",
     },
@@ -113,9 +117,9 @@ export const UNIVERSAL_PRIVACY: PrivacyData = {
     {
       heading: "Animal-track identification (Paw)",
       paragraphs: [
-        "In “Paw”, before the first identification the application asks for your permission to send data to OpenAI. When you scan, the track photo you take or choose is sent over HTTPS to our processing endpoint and forwarded to OpenAI to identify the animal. If you have allowed location access, your approximate area (coordinates rounded to about 1 km) and the current month are sent with the photo, only to help tell look-alike species apart. Questions you ask the in-app field assistant are sent to OpenAI in the same way.",
+        "In “Paw”, identification is performed by OpenAI. When you scan, the track photo you take or choose is sent over HTTPS to our processing endpoint and forwarded to OpenAI to identify the animal. If you have allowed location access, your approximate area (coordinates rounded to about 1 km) and the current month are sent with the photo, only to help tell look-alike species apart. Questions you ask the in-app field assistant are sent to OpenAI in the same way.",
         "For each identification our server records a technical log entry — time, outcome (identified, low confidence, not a track, failed), the suggested animal name and confidence, response time, and whether location was included (yes/no) — linked to the pseudonymous subscription identifier (older app versions use a one-way hash of the network address instead). Photos, coordinates and question text are not stored in this log or anywhere on our servers.",
-        "Your sightings journal, photos and place labels are stored only on your device. You may withdraw the AI permission in the application’s Settings at any time; identification is then unavailable until you allow it again.",
+        "Your sightings journal, photos and place labels are stored only on your device. Nothing is sent to OpenAI unless you take or choose a photo to identify or ask the field assistant a question; the field guide, journal and track quiz work without sending anything.",
       ],
     },
     {

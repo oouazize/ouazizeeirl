@@ -1,0 +1,143 @@
+[
+  {
+    "slug": "reading-gaits",
+    "category": "Gaits & Patterns",
+    "title": "Reading Gaits: What the Trail Tells You",
+    "summary": "A single track names the animal; the PATTERN of tracks names what it was doing — and often narrows the species faster than the print itself.",
+    "readMinutes": 4,
+    "sections": [
+      {
+        "heading": "Four gaits to know",
+        "body": "Walk — slow, alternating steps in two near-parallel lines. Trot — a faster two-beat gait; many animals \"register\" the hind into the front track, collapsing the trail into one tidy line. Bound — front feet land, then the hinds swing past and land ahead, leaving clusters (weasels, squirrels). Gallop / lope — top speed; all four feet group, then a long gap, with the larger hind feet printing AHEAD of the fronts."
+      },
+      {
+        "heading": "Direct register = a wild tell",
+        "body": "When the hind foot drops exactly into the front print, you get a single clean line of evenly spaced tracks. Foxes, coyotes and cats do this constantly — it is efficient and quiet. A pet dog rarely bothers: its trail wanders and double-prints. A dead-straight line of single prints leans wild; a sloppy side-to-side trail leans domestic dog."
+      },
+      {
+        "heading": "Measure stride, straddle, group",
+        "body": "Stride is the distance to the next same-foot print — it scales with leg length and speed. Straddle is the width of the whole trail — wide means a low, heavy body (raccoon, badger), narrow means a tidy walker (fox, cat). Group length in a bounder hints at size and speed. These survive even when an individual print is mushy."
+      },
+      {
+        "heading": "Let the pattern break the tie",
+        "body": "When two species leave near-identical prints (fox vs small coyote, dog vs coyote), the gait pattern usually decides it: purposeful straight trotting line vs meandering wander. Always read 6–10 prints of trail before committing to the single print under your nose."
+      }
+    ],
+    "related": [
+      "red-fox",
+      "coyote"
+    ]
+  },
+  {
+    "slug": "track-vs-sign",
+    "category": "Tracks 101",
+    "title": "Track vs. Sign: The Two Halves of Tracking",
+    "summary": "A footprint is only half the story. Scat, feathers, chews, rubs and beds often identify an animal when no clean track exists.",
+    "readMinutes": 3,
+    "sections": [
+      {
+        "heading": "What counts as \"sign\"",
+        "body": "Sign is anything an animal leaves besides a footprint: scat (droppings), feathers and fur, chews (gnawed nuts, browsed twigs, gnawed wood), rubs and scrapes (antler rubs, bear trees, scent scrapes), diggings, beds, and trails worn into vegetation. In hard or leaf-littered ground where tracks won’t form, sign is often all you get — and it can be more diagnostic than a smudged print."
+      },
+      {
+        "heading": "Read track and sign together",
+        "body": "The strongest IDs combine both: a clawless round track PLUS a covered, hair-filled scat says cat. A long-fingered \"hand\" track PLUS a streamside latrine says raccoon. When the track is ambiguous, the nearby sign frequently resolves it."
+      },
+      {
+        "heading": "Leave it as you found it",
+        "body": "Photograph sign in place with something for scale; don’t collect or disturb. Fresh scat, in particular, is data — note its contents and condition, then move on."
+      }
+    ],
+    "related": [
+      "scat-id-basics",
+      "reading-gaits"
+    ]
+  },
+  {
+    "slug": "scat-id-basics",
+    "category": "Scat & Sign",
+    "title": "Scat ID Basics: Shape, Size, Contents, Place",
+    "summary": "Droppings are one of the most reliable signs. Four questions narrow them fast — without touching anything.",
+    "readMinutes": 4,
+    "sections": [
+      {
+        "heading": "Shape & ends",
+        "body": "Tubular cords with tapered or twisted points → carnivores (fox, coyote, cat, mustelids). Pellets → herbivores (deer, hare, rabbit). A clumped mass of pellets → pig or sometimes deer in rich forage. A long thin scat with a fine point → a mustelid like marten."
+      },
+      {
+        "heading": "Contents",
+        "body": "Hair and bone → a meat eater. Berry seeds and insect parts → an omnivore (fox, raccoon, bear in season). Fish scales with a fishy smell → otter. Chalky white when dry → high bone content, classically hyena. Coarse fibre → a browser/grazer."
+      },
+      {
+        "heading": "Size scales with the animal",
+        "body": "Diameter is a better size cue than length. A 2–4 cm thick cord is wolf or big dog; ~1 cm is fox; pellet size separates hare from deer from moose. Always note a measurement."
+      },
+      {
+        "heading": "Place is a clue",
+        "body": "Latrines on logs/rocks → raccoon or otter. Prominent trail junctions and rocks → canids and cats scent-marking. Dung pits near a sett → badger. In water → beaver/muskrat. Where it’s left is part of the ID."
+      }
+    ],
+    "related": [
+      "track-vs-sign",
+      "river-otter"
+    ]
+  },
+  {
+    "slug": "aging-a-track",
+    "category": "Field Skills",
+    "title": "How Fresh Is It? Aging a Track",
+    "summary": "You can’t put an exact clock on a print, but edges, weather and debris give a reliable rough age.",
+    "readMinutes": 3,
+    "sections": [
+      {
+        "heading": "Read the edges",
+        "body": "Crisp, sharp rims with fine detail and moist-looking soil = fresh, often within hours. Crumbling, rounded, dried-out edges = a day or more. Wind slowly softens everything, so sharpness fades with time."
+      },
+      {
+        "heading": "Use the weather as a timestamp",
+        "body": "Did it rain or snow last night? A track ON TOP of fresh snow or un-rain-pocked is younger than the last precipitation; a track filled with rain dimples or dusted by snow is older. Dew, frost and a known last-rain time are your free clock."
+      },
+      {
+        "heading": "Debris and traffic",
+        "body": "Wind-blown leaves, twigs or insect trails crossing the print accumulate with age. Overlapping later tracks (other animals, your own) also order events. In snow, refreezing turns a fresh soft edge into a hard glazed one overnight."
+      },
+      {
+        "heading": "Stay honest",
+        "body": "Aging is a range, not a number. \"A few hours\" or \"more than a day\" is the right level of confidence — anyone who gives you an exact time from a photo is guessing."
+      }
+    ],
+    "related": [
+      "reading-gaits",
+      "track-vs-sign"
+    ]
+  },
+  {
+    "slug": "reading-the-substrate",
+    "category": "Tracks 101",
+    "title": "Reading the Substrate: Mud, Sand, Snow & Dust",
+    "summary": "The same foot prints differently in different ground. Knowing the surface stops you from over- or under-reading a track.",
+    "readMinutes": 3,
+    "sections": [
+      {
+        "heading": "Mud & wet sand — the truth-tellers",
+        "body": "Fine damp mud and wet sand capture the most detail: pad shape, claw dots, even fur and skin texture. This is where to confirm a tricky ID. Very wet mud, though, lets toes splay and prints slump larger than life."
+      },
+      {
+        "heading": "Snow — size lies",
+        "body": "Snow exaggerates. Sun and melt widen a print over hours, so a \"wolf\" track may be a melted-out coyote. In powder, foot fur blurs pads (fox, lynx, hare) — read the gait and trail line instead of toe detail, and measure soon after the snow fell."
+      },
+      {
+        "heading": "Dry sand & dust — shape only",
+        "body": "Loose dry sand collapses fine detail; you get overall shape and depth but not pad lobes or claw dots. Look for the cleanest print in the set and use the trail pattern to back up the ID."
+      },
+      {
+        "heading": "Always note the surface",
+        "body": "Record what the animal walked on alongside the measurement. A 3-inch print in slumped mud and a 3-inch print in firm dust are not the same animal — context corrects the number."
+      }
+    ],
+    "related": [
+      "aging-a-track",
+      "reading-gaits"
+    ]
+  }
+]

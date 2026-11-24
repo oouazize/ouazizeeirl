@@ -1,0 +1,1648 @@
+[
+  {
+    "id": "red_fox",
+    "slug": "red-fox",
+    "name": "Red Fox",
+    "sci": "Vulpes vulpes",
+    "group": "Canine",
+    "trackType": "Paw print",
+    "sizeImp": "2.0 × 1.6 in",
+    "sizeMet": "5.1 × 4.1 cm",
+    "toes": 4,
+    "claws": true,
+    "gait": "Direct register trot",
+    "stride": "13–18 in (33–46 cm)",
+    "danger": "low",
+    "dangerNote": "Shy and non-aggressive toward people. May carry rabies in rare cases — never handle.",
+    "habitat": "Forest edges, farmland, meadows, suburbs",
+    "range": "Across North America, Europe & Asia",
+    "activity": "Mostly nocturnal & crepuscular",
+    "behavior": "Solitary hunters that trot in remarkably straight lines, often placing the hind foot directly in the front track. The trail looks almost as if drawn with a ruler — a classic fox tell.",
+    "idTips": [
+      "Tracks fall in a near-perfect straight line",
+      "Chevron-shaped ridge of fur in the heel pad print",
+      "Slim, oval toes with small claw dots",
+      "Front track noticeably larger than the hind"
+    ],
+    "blurb": "A small, russet canid famous for its bushy white-tipped tail and dead-straight trotting trail.",
+    "confusedWith": [
+      "domestic-dog",
+      "coyote",
+      "house-cat"
+    ],
+    "footLabels": [
+      "Front foot",
+      "Hind foot"
+    ],
+    "features": [
+      {
+        "n": 1,
+        "text": "Heel pad prints as a thin chevron bar — fur hides the rest",
+        "foot": "front"
+      },
+      {
+        "n": 2,
+        "text": "Small toe pads with lots of space between them",
+        "foot": "front"
+      },
+      {
+        "n": 3,
+        "text": "Blurry outline: dense winter fur softens every edge",
+        "foot": "front"
+      }
+    ],
+    "trail": {
+      "kind": "trot_direct",
+      "name": "Direct-register trot",
+      "how": "Each hind foot lands in the front print — one tidy, nearly straight line."
+    },
+    "guide": {
+      "summary": "The most widespread wild canid on Earth, famous for a dead-straight, ruler-like trotting trail.",
+      "trackMorphology": "Four toes around a small bar/chevron heel pad, with four small claw dots ahead of the toes. Oval outline, longer than wide, neat and lightly built. So furry that in soft ground the pads blur. An \"X\" fits in the negative space — the canid signature.",
+      "gait": "Almost always a direct-register trot: hind foot drops into the front track, leaving a single line of evenly spaced prints that runs remarkably straight, as if drawn with a ruler.",
+      "measurements": {
+        "imp": "Track ≈ 2.0 × 1.6 in. Trot stride ≈ 13–18 in.",
+        "met": "Track ≈ 5 × 4 cm. Trot stride ≈ 33–46 cm."
+      },
+      "scat": "Tapered, twisted cords ~5–8 cm long with a pointed end, packed with fur, bone and seasonal berry seeds. Often left on a rock or trail junction to scent-mark; musky odour.",
+      "similar": "Coyote (larger, fuller pads, less hair); dog (rounder, splayed, wandering trail); cat (round, NO claws). The straight trotting line separates fox from a meandering dog.",
+      "substrate": "Mud/wet sand: cleanest, shows claw dots + heel bar. Snow: hair smears the pads — read the straight line. Dust: faint four-toe oval.",
+      "photo": {
+        "uri": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Portrait_of_a_red_fox_in_Rautas_fj%C3%A4llurskog_%28cropped%29.jpg",
+        "alt": "Red fox",
+        "credit": "ClaudiaTen — CC BY-SA 4.0",
+        "license": "CC BY-SA 4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Portrait_of_a_red_fox_in_Rautas_fj%C3%A4llurskog_(cropped).jpg"
+      }
+    }
+  },
+  {
+    "id": "coyote",
+    "slug": "coyote",
+    "name": "Coyote",
+    "sci": "Canis latrans",
+    "group": "Canine",
+    "trackType": "Paw print",
+    "sizeImp": "2.5 × 1.9 in",
+    "sizeMet": "6.4 × 4.8 cm",
+    "toes": 4,
+    "claws": true,
+    "gait": "Direct register trot",
+    "stride": "16–22 in (41–56 cm)",
+    "danger": "low",
+    "dangerNote": "Generally avoids humans. Can grow bold near food; keep pets leashed at dusk.",
+    "habitat": "Open prairie, desert, forest, increasingly cities",
+    "range": "Throughout North & Central America",
+    "activity": "Nocturnal, active at dawn & dusk",
+    "behavior": "Efficient travelers that, like foxes, register their tracks in a tidy line. Larger and more elongated than fox, with a sturdier heel pad.",
+    "idTips": [
+      "Oval, compact track — longer than wide",
+      "Claw marks usually show on the two middle toes",
+      "Straighter trail than a domestic dog"
+    ],
+    "blurb": "A highly adaptable wild canid whose trail reads straighter and more purposeful than a pet dog’s.",
+    "confusedWith": [
+      "domestic-dog",
+      "red-fox",
+      "gray-wolf"
+    ],
+    "footLabels": [
+      "Front foot",
+      "Hind foot"
+    ],
+    "features": [
+      {
+        "n": 1,
+        "text": "Claws on the two middle toes point straight ahead",
+        "foot": "front"
+      },
+      {
+        "n": 2,
+        "text": "Clear X of open ground between toes and heel",
+        "foot": "front"
+      },
+      {
+        "n": 3,
+        "text": "Outer toes tuck in behind the inner toes",
+        "foot": "front"
+      },
+      {
+        "n": 4,
+        "text": "Small, triangular heel pad — about a third of the print",
+        "foot": "front"
+      }
+    ],
+    "trail": {
+      "kind": "trot_direct",
+      "name": "Direct-register trot",
+      "how": "Each hind foot lands in the front print — one tidy, nearly straight line."
+    },
+    "guide": {
+      "summary": "A wild canid whose trail reads straighter and more purposeful than a pet dog’s.",
+      "trackMorphology": "Four toes, compact oval, claws clearest on the two middle toes. Fuller, tighter toe pads than a fox and far less hair, so the pad outlines stay crisp. \"X\" negative space.",
+      "gait": "Efficient direct-register trot in a tidy, fairly straight line; less ruler-perfect than a fox, far more purposeful than a dog.",
+      "measurements": {
+        "imp": "Track ≈ 2.5 × 1.9 in. Trot stride ≈ 16–22 in.",
+        "met": "Track ≈ 6.4 × 4.8 cm. Trot stride ≈ 41–56 cm."
+      },
+      "scat": "Rope-like, 8–13 cm, tapered and often twisted, loaded with hair, bone, and fruit in season. Deposited prominently on trails and junctions.",
+      "similar": "Red fox (smaller, furrier, ruler-straight); domestic dog (rounder, splayed toes, wandering); gray wolf (much larger). Trail shape often decides fox-vs-coyote.",
+      "substrate": "Holds detail well in mud and firm snow. In powder the trail line is the best cue.",
+      "photo": {
+        "uri": "https://upload.wikimedia.org/wikipedia/commons/9/9c/2009-Coyote-Yosemite.jpg",
+        "alt": "Coyote",
+        "credit": "Yathin S Krishnappa — CC BY-SA 3.0",
+        "license": "CC BY-SA 3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:2009-Coyote-Yosemite.jpg"
+      }
+    }
+  },
+  {
+    "id": "gray_wolf",
+    "slug": "gray-wolf",
+    "name": "Gray Wolf",
+    "sci": "Canis lupus",
+    "group": "Canine",
+    "trackType": "Paw print",
+    "sizeImp": "4.5 × 3.5 in",
+    "sizeMet": "11 × 9 cm",
+    "toes": 4,
+    "claws": true,
+    "gait": "Direct register trot",
+    "stride": "26–34 in (66–86 cm)",
+    "danger": "moderate",
+    "dangerNote": "Wolf attacks on humans are extremely rare, but never approach. Report sightings.",
+    "habitat": "Remote forest, tundra, mountains",
+    "range": "Canada, northern US, Eurasia",
+    "activity": "Crepuscular & nocturnal",
+    "behavior": "Very large canine track — far bigger than coyote or most dogs, with a robust heel pad and deep claw marks.",
+    "idTips": [
+      "Huge — over 4 inches long",
+      "Strong, blunt claw marks",
+      "Travels in a straight, energy-efficient line"
+    ],
+    "blurb": "The largest wild canine track in the north woods — unmistakably big and deep.",
+    "confusedWith": [
+      "coyote",
+      "domestic-dog"
+    ],
+    "footLabels": [
+      "Front foot",
+      "Hind foot"
+    ],
+    "features": [
+      {
+        "n": 1,
+        "text": "Thick claw marks on every toe",
+        "foot": "front"
+      },
+      {
+        "n": 2,
+        "text": "Big heel pad with a single rounded lobe in front",
+        "foot": "front"
+      },
+      {
+        "n": 3,
+        "text": "Over 4 in (10 cm) long — larger than almost any dog of similar build",
+        "foot": "front"
+      }
+    ],
+    "trail": {
+      "kind": "trot_direct",
+      "name": "Direct-register trot",
+      "how": "Each hind foot lands in the front print — one tidy, nearly straight line."
+    },
+    "guide": {
+      "summary": "The largest wild canine track in the north woods — unmistakably big and deep.",
+      "trackMorphology": "Four robust toes over a large, heavy heel pad; blunt claw marks. The whole print is deep and blocky — far bigger than coyote or most dogs. Front larger than hind.",
+      "gait": "Energy-saving direct-register trot in a long, straight line; packs travel single-file, so one trail can hide several animals.",
+      "measurements": {
+        "imp": "Track ≈ 4.5 × 3.5 in, often >4 in long. Stride ≈ 26–34 in.",
+        "met": "Track ≈ 11 × 9 cm, often >11 cm long. Stride ≈ 66–86 cm."
+      },
+      "scat": "Large cords 2–4 cm thick, full of hair and bone splinters, often with a tapered twist; bigger than any coyote scat.",
+      "similar": "Large domestic dogs overlap in size — but wolf trails run straight and economical while dogs wander and double-print. Coyote is much smaller.",
+      "substrate": "Deep clear prints in mud and snow; its size alone usually rules out coyote.",
+      "photo": {
+        "uri": "https://upload.wikimedia.org/wikipedia/commons/6/68/Eurasian_wolf_2.jpg",
+        "alt": "Gray wolf",
+        "credit": "User:Mas3cf — CC BY-SA 4.0",
+        "license": "CC BY-SA 4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Eurasian_wolf_2.jpg"
+      }
+    }
+  },
+  {
+    "id": "domestic_dog",
+    "slug": "domestic-dog",
+    "name": "Domestic Dog",
+    "sci": "Canis familiaris",
+    "group": "Canine",
+    "trackType": "Paw print",
+    "sizeImp": "1.5 – 4 in (varies)",
+    "sizeMet": "3.8 – 10 cm",
+    "toes": 4,
+    "claws": true,
+    "gait": "Wandering walk",
+    "stride": "Highly variable",
+    "danger": "low",
+    "dangerNote": "A companion animal — but confirm before approaching an unknown dog.",
+    "habitat": "Anywhere people are",
+    "range": "Worldwide",
+    "activity": "Diurnal",
+    "behavior": "Meandering, playful trails that wander side to side. Toes splay wider and claw marks are blunt and obvious.",
+    "idTips": [
+      "Round, splayed track — width close to length",
+      "Trail wanders rather than running straight",
+      "Blunt, heavy claw marks on all toes"
+    ],
+    "blurb": "The most common track you’ll find near trails and homes — round, splayed, and wandering.",
+    "confusedWith": [
+      "coyote",
+      "red-fox",
+      "gray-wolf"
+    ],
+    "footLabels": [
+      "Front foot",
+      "Hind foot"
+    ],
+    "features": [
+      {
+        "n": 1,
+        "text": "Blunt claws that splay outward",
+        "foot": "front"
+      },
+      {
+        "n": 2,
+        "text": "Outer toes sit level with the inner toes — no X",
+        "foot": "front"
+      },
+      {
+        "n": 3,
+        "text": "Large heel pad, half the print or more",
+        "foot": "front"
+      }
+    ],
+    "trail": {
+      "kind": "walk_wander",
+      "name": "Wandering walk",
+      "how": "Front and hind prints land apart and the line meanders — no energy saving."
+    },
+    "guide": null
+  },
+  {
+    "id": "bobcat",
+    "slug": "bobcat",
+    "name": "Bobcat",
+    "sci": "Lynx rufus",
+    "group": "Feline",
+    "trackType": "Paw print",
+    "sizeImp": "1.8 × 1.8 in",
+    "sizeMet": "4.6 × 4.6 cm",
+    "toes": 4,
+    "claws": false,
+    "gait": "Direct register walk",
+    "stride": "11–15 in (28–38 cm)",
+    "danger": "low",
+    "dangerNote": "Elusive and rarely seen; no threat to adults. Keep small pets in at night.",
+    "habitat": "Forests, swamps, rocky scrubland",
+    "range": "Southern Canada through Mexico",
+    "activity": "Nocturnal & crepuscular",
+    "behavior": "A larger feline track than the house cat but with the same clawless, round signature and lobed heel pad.",
+    "idTips": [
+      "No claw marks",
+      "Larger than a house cat, smaller than a dog",
+      "Two lobes on front of heel pad, three on rear"
+    ],
+    "blurb": "A stub-tailed wild cat leaving round, clawless tracks twice the size of a house cat’s.",
+    "confusedWith": [
+      "house-cat",
+      "coyote"
+    ],
+    "footLabels": [
+      "Front foot",
+      "Hind foot"
+    ],
+    "features": [
+      {
+        "n": 1,
+        "text": "Leading toe: one inner toe sits ahead of the other",
+        "foot": "front"
+      },
+      {
+        "n": 2,
+        "text": "Notch at the top of the heel pad, between two lobes",
+        "foot": "front"
+      },
+      {
+        "n": 3,
+        "text": "Three rear lobes; heel pad bigger than any toe by far",
+        "foot": "front"
+      },
+      {
+        "n": 4,
+        "text": "No claws — print ends cleanly in front of the toes",
+        "foot": "front"
+      }
+    ],
+    "trail": {
+      "kind": "walk_direct",
+      "name": "Direct-register walk",
+      "how": "Hind feet step precisely into the front prints, in a gentle zig-zag."
+    },
+    "guide": {
+      "summary": "A stub-tailed wild cat leaving round, clawless prints about twice a house cat’s size.",
+      "trackMorphology": "Four toes, round outline (about as wide as long), NO claw marks (retractable). Large heel pad with two lobes on the leading edge and three on the rear; an asymmetric leading toe. A \"C\" curve fits between toes and pad.",
+      "gait": "Direct-register walk in a neat line; overstep when relaxed. Stalks, so the trail meanders along cover and edges.",
+      "measurements": {
+        "imp": "Track ≈ 1.8 × 1.8 in. Walking stride ≈ 11–15 in.",
+        "met": "Track ≈ 4.6 cm. Walking stride ≈ 28–38 cm."
+      },
+      "scat": "Segmented, blunt-ended pellets/cords with hair, often buried or left in a scrape near a kill or trail.",
+      "similar": "House cat (smaller); coyote/fox (oval WITH claws). Absence of claw marks rules out every canid.",
+      "substrate": "Round clawless print shows best in mud and shallow snow; in deep snow the body drag and trail shape help.",
+      "photo": {
+        "uri": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Bobcat_at_Columbus_Zoo_Boo.jpg",
+        "alt": "Bobcat",
+        "credit": "Becker1999 (Paul and Cathy) — CC BY 2.0",
+        "license": "CC BY 2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Bobcat_at_Columbus_Zoo_Boo.jpg"
+      }
+    }
+  },
+  {
+    "id": "house_cat",
+    "slug": "house-cat",
+    "name": "Domestic Cat",
+    "sci": "Felis catus",
+    "group": "Feline",
+    "trackType": "Paw print",
+    "sizeImp": "1.2 × 1.2 in",
+    "sizeMet": "3.0 × 3.0 cm",
+    "toes": 4,
+    "claws": false,
+    "gait": "Direct register walk",
+    "stride": "8–11 in (20–28 cm)",
+    "danger": "low",
+    "dangerNote": "Harmless.",
+    "habitat": "Suburbs, farms, woodland edges",
+    "range": "Worldwide",
+    "activity": "Crepuscular",
+    "behavior": "Round, neat tracks with no claw marks — claws stay retracted while walking. The leading edge of the heel pad shows two small lobes.",
+    "idTips": [
+      "No claw marks (retractable claws)",
+      "Round overall outline, wider than long",
+      "Asymmetric — like a human hand, has a leading toe"
+    ],
+    "blurb": "Round and clawless — the absence of claw dots is the quickest way to separate cat from fox.",
+    "confusedWith": [
+      "red-fox",
+      "bobcat"
+    ],
+    "footLabels": [
+      "Front foot",
+      "Hind foot"
+    ],
+    "features": [
+      {
+        "n": 1,
+        "text": "No claw marks — claws stay sheathed while walking",
+        "foot": "front"
+      },
+      {
+        "n": 2,
+        "text": "Heel pad has three lobes on its rear edge",
+        "foot": "front"
+      },
+      {
+        "n": 3,
+        "text": "Round print, about as wide as long — under 1.6 in (4 cm)",
+        "foot": "front"
+      }
+    ],
+    "trail": {
+      "kind": "walk_direct",
+      "name": "Direct-register walk",
+      "how": "Hind feet step precisely into the front prints, in a gentle zig-zag."
+    },
+    "guide": null
+  },
+  {
+    "id": "mountain_lion",
+    "slug": "mountain-lion",
+    "name": "Mountain Lion",
+    "sci": "Puma concolor",
+    "group": "Feline",
+    "trackType": "Paw print",
+    "sizeImp": "3 – 4 in",
+    "sizeMet": "7.5 – 10 cm",
+    "toes": 4,
+    "claws": false,
+    "gait": "Walk / direct register",
+    "stride": "15–28 in (38–71 cm)",
+    "danger": "moderate",
+    "dangerNote": "Attacks are very rare. If you meet one, stand tall, keep eye contact, back away slowly — never run.",
+    "habitat": "Rugged canyons, forests, mountains",
+    "range": "Western North America, Florida; expanding in the Midwest",
+    "activity": "Nocturnal & crepuscular",
+    "behavior": "A big round print with no claw marks. The heel pad is huge with three lobes along its back edge and two on the front.",
+    "idTips": [
+      "Round, no claw marks, wider than long",
+      "Huge heel pad with an M-shaped, three-lobed back edge",
+      "Over 3 in wide — twice a bobcat"
+    ],
+    "blurb": "A massive, clawless, round cat print — bobcat shape at wolf size.",
+    "confusedWith": [
+      "bobcat",
+      "gray-wolf",
+      "domestic-dog"
+    ],
+    "footLabels": [
+      "Front foot",
+      "Hind foot"
+    ],
+    "features": [
+      {
+        "n": 1,
+        "text": "Huge heel pad, wider than it is long, three rear lobes",
+        "foot": "front"
+      },
+      {
+        "n": 2,
+        "text": "Small teardrop toes relative to the heel; one leads",
+        "foot": "front"
+      },
+      {
+        "n": 3,
+        "text": "No claw marks, even in deep mud or snow",
+        "foot": "front"
+      },
+      {
+        "n": 4,
+        "text": "3–4 in (8–10 cm) wide: far bigger than a bobcat",
+        "foot": "front"
+      }
+    ],
+    "trail": {
+      "kind": "walk_direct",
+      "name": "Direct-register walk",
+      "how": "Hind feet step precisely into the front prints, in a gentle zig-zag."
+    },
+    "guide": {
+      "summary": "The big cat of the New World — a large, round, clawless print with a distinctive M-shaped pad.",
+      "trackMorphology": "Four large round toes, no claws, over a broad heel pad with three lobes on the rear edge (an \"M\" shape) and two on the front. Markedly asymmetric, like a hand with a leading toe.",
+      "gait": "Direct-register walk; tracks fall in a tidy line. Long stride for its weight; capable of huge bounds.",
+      "measurements": {
+        "imp": "Track ≈ 3–3.5 in wide. Walking stride ≈ 20–28 in.",
+        "met": "Track ≈ 7.5–9 cm wide. Walking stride ≈ 50–70 cm."
+      },
+      "scat": "Large segmented scat with blunt ends, full of hair and bone, frequently covered with scraped soil or leaves near a cached kill.",
+      "similar": "Wolf/large dog (oval WITH claws; cougar is round, clawless). Bobcat is the same shape but roughly half the size.",
+      "substrate": "Clean in dust, mud and snow; the three-lobed heel and absent claws are the key tells.",
+      "photo": {
+        "uri": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Mountain_Lion_in_Glacier_National_Park.jpg",
+        "alt": "Cougar (mountain lion)",
+        "credit": "National Park Service — Public domain",
+        "license": "Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Mountain_Lion_in_Glacier_National_Park.jpg"
+      }
+    }
+  },
+  {
+    "id": "white_tailed_deer",
+    "slug": "white-tailed-deer",
+    "name": "White-tailed Deer",
+    "sci": "Odocoileus virginianus",
+    "group": "Hoofed",
+    "trackType": "Hoof print",
+    "sizeImp": "2.5 – 3.5 in",
+    "sizeMet": "6.4 – 8.9 cm",
+    "toes": 2,
+    "claws": false,
+    "gait": "Walking / bounding",
+    "stride": "16–28 in (41–71 cm)",
+    "danger": "low",
+    "dangerNote": "Skittish; the main risk is collisions on roads at dawn and dusk.",
+    "habitat": "Woodland, field edges, suburbs",
+    "range": "Throughout the Americas",
+    "activity": "Crepuscular",
+    "behavior": "Two elongated, pointed halves forming a heart or split-teardrop shape. The point leads the direction of travel.",
+    "idTips": [
+      "Two-part split hoof, heart-shaped",
+      "Pointed end faces the direction of travel",
+      "Dewclaw dots may show behind when running"
+    ],
+    "blurb": "A heart-shaped, two-toed print — the classic hoof track of eastern woodlands.",
+    "confusedWith": [
+      "feral-hog",
+      "elk"
+    ],
+    "footLabels": [
+      "Front foot",
+      "Hind foot"
+    ],
+    "features": [
+      {
+        "n": 1,
+        "text": "Pointed tips — the classic upside-down heart",
+        "foot": "front"
+      },
+      {
+        "n": 2,
+        "text": "Thin gap runs the full length between the two halves",
+        "foot": "front"
+      },
+      {
+        "n": 3,
+        "text": "Dewclaws print behind only in deep mud or snow, or at a run",
+        "foot": "front"
+      }
+    ],
+    "trail": {
+      "kind": "walk_hoof",
+      "name": "Walking hoof line",
+      "how": "Hind hoof steps into the front print, giving a zig-zag of single prints."
+    },
+    "guide": {
+      "summary": "A heart-shaped, two-toed print — the classic hoof track of woodland edges.",
+      "trackMorphology": "Two elongated, pointed halves (cleaves) forming a heart / split-teardrop; the pointed end leads the direction of travel. Two dewclaw dots print behind when running or in deep mud/snow.",
+      "gait": "Walks and bounds; in a walk the prints are paired and offset, in a bound all four group with dewclaws showing.",
+      "measurements": {
+        "imp": "Track ≈ 2.5–3.5 in long.",
+        "met": "Track ≈ 6.4–8.9 cm long."
+      },
+      "scat": "Piles of small oval pellets, often clumped in cold weather; flat or dimpled on one end.",
+      "similar": "Other deer (size); pig (rounder, splayed cleaves + round dewclaws). Heart shape with a point forward = deer.",
+      "substrate": "Mud and snow take the heart shape cleanly; splayed cleaves + dewclaws appear with speed or soft ground.",
+      "photo": {
+        "uri": "https://upload.wikimedia.org/wikipedia/commons/b/b7/White-tailed_deer.jpg",
+        "alt": "White-tailed deer",
+        "credit": "USDA photo by Scott Bauer — Public domain",
+        "license": "Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:White-tailed_deer.jpg"
+      }
+    }
+  },
+  {
+    "id": "elk",
+    "slug": "elk",
+    "name": "Elk",
+    "sci": "Cervus canadensis",
+    "group": "Hoofed",
+    "trackType": "Hoof print",
+    "sizeImp": "4 – 4.75 in",
+    "sizeMet": "10 – 12 cm",
+    "toes": 2,
+    "claws": false,
+    "gait": "Walk / trot",
+    "stride": "30–40 in (76–102 cm)",
+    "danger": "moderate",
+    "dangerNote": "Bulls in the autumn rut and cows with calves in spring can charge. Keep at least 25 yards away.",
+    "habitat": "Mountain meadows, open forest, foothills",
+    "range": "Western North America; reintroduced in parts of the East",
+    "activity": "Crepuscular",
+    "behavior": "Herds leave broad, trampled trails between meadows and timber. Tracks are large, rounded and blocky compared with deer.",
+    "idTips": [
+      "Large, rounded, blocky split hoof",
+      "Toes less pointed than deer, more rounded than moose",
+      "Twice the size of a white-tailed deer track"
+    ],
+    "blurb": "A big, round-toed split hoof — think of a deer track blown up and squared off.",
+    "confusedWith": [
+      "moose",
+      "white-tailed-deer",
+      "feral-hog"
+    ],
+    "footLabels": [
+      "Front foot",
+      "Hind foot"
+    ],
+    "features": [
+      {
+        "n": 1,
+        "text": "Nearly as wide as long — rounder than any deer print",
+        "foot": "front"
+      },
+      {
+        "n": 2,
+        "text": "Broad, blunt toe tips with little taper",
+        "foot": "front"
+      },
+      {
+        "n": 3,
+        "text": "Over 4 in (10 cm) long: too big for deer, too round for moose",
+        "foot": "front"
+      }
+    ],
+    "trail": {
+      "kind": "walk_hoof",
+      "name": "Walking hoof line",
+      "how": "Hind hoof steps into the front print, giving a zig-zag of single prints."
+    },
+    "guide": {
+      "summary": "A big, rounded cloven hoof — larger than deer, far smaller than moose.",
+      "trackMorphology": "Two rounded cleaves, broader and blunter than deer; the print is nearly as wide as long. Dewclaws show at speed or in mud.",
+      "gait": "Herd animal; walks and trots along established trails, leaving many overlapping prints.",
+      "measurements": {
+        "imp": "Track ≈ 4–4.5 in long.",
+        "met": "Track ≈ 10–11 cm long."
+      },
+      "scat": "Pellets larger than deer, often dimpled/clumped; in summer can be a soft pat.",
+      "similar": "Deer (smaller, sharper); moose (much larger, more pointed). Rounded mid-size cloven hoof in herds = elk.",
+      "substrate": "Mud and snow on game trails; size separates it from deer.",
+      "photo": {
+        "uri": "https://upload.wikimedia.org/wikipedia/commons/7/73/Jasper.Wapiti-Hirsch.P1033401.jpg",
+        "alt": "Elk (wapiti)",
+        "credit": "Membeth — CC0",
+        "license": "CC0",
+        "source": "https://commons.wikimedia.org/wiki/File:Jasper.Wapiti-Hirsch.P1033401.jpg"
+      }
+    }
+  },
+  {
+    "id": "moose",
+    "slug": "moose",
+    "name": "Moose",
+    "sci": "Alces alces",
+    "group": "Hoofed",
+    "trackType": "Hoof print",
+    "sizeImp": "5 – 6.5 in",
+    "sizeMet": "13 – 16.5 cm",
+    "toes": 2,
+    "claws": false,
+    "gait": "Long-striding walk",
+    "stride": "40–60 in (100–150 cm)",
+    "danger": "moderate",
+    "dangerNote": "Moose injure more people than bears do. If ears go back or hackles rise, back away and put a tree between you.",
+    "habitat": "Boreal forest, willow bottoms, lakes and bogs",
+    "range": "Canada, Alaska, northern Rockies and the northern US",
+    "activity": "Crepuscular, also active by day",
+    "behavior": "A huge, long, pointed heart — the toes often splay in soft ground and dewclaws print in deep snow or mud.",
+    "idTips": [
+      "Huge, narrow, pointed heart shape",
+      "Over 5 in long — bigger than any deer",
+      "Dewclaws print in soft ground"
+    ],
+    "blurb": "The largest hoof print in the North Woods: a long, pointed heart over five inches.",
+    "confusedWith": [
+      "elk",
+      "white-tailed-deer"
+    ],
+    "footLabels": [
+      "Front foot",
+      "Hind foot"
+    ],
+    "features": [
+      {
+        "n": 1,
+        "text": "Long, tapering tips on a hoof over 5 in (13 cm)",
+        "foot": "front"
+      },
+      {
+        "n": 2,
+        "text": "Halves often spread apart, leaving a wide V",
+        "foot": "front"
+      },
+      {
+        "n": 3,
+        "text": "Dewclaws register often — long legs, soft ground",
+        "foot": "front"
+      }
+    ],
+    "trail": {
+      "kind": "walk_hoof",
+      "name": "Walking hoof line",
+      "how": "Hind hoof steps into the front print, giving a zig-zag of single prints."
+    },
+    "guide": {
+      "summary": "The largest deer track — a big, pointed cloven hoof, often with dewclaws.",
+      "trackMorphology": "Two long, pointed cleaves, much larger than elk or deer; dewclaws print frequently because of the animal’s weight and long legs sinking into soft ground.",
+      "gait": "Long-striding walk and trot through bogs, snow and forest; deep prints due to mass.",
+      "measurements": {
+        "imp": "Track ≈ 5–7 in long; with dewclaws even longer.",
+        "met": "Track ≈ 13–18 cm long; with dewclaws even longer."
+      },
+      "scat": "Large oval pellets (often acorn-sized) in big piles; softer patty in summer browse season.",
+      "similar": "Elk/deer (much smaller). Sheer size + frequent dewclaws = moose.",
+      "substrate": "Bog, mud and deep snow — the weight drives deep prints with dewclaw marks.",
+      "photo": {
+        "uri": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Alaska_moose.jpg",
+        "alt": "Moose",
+        "credit": "Paxson Woelber — CC BY-SA 4.0",
+        "license": "CC BY-SA 4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Alaska_moose.jpg"
+      }
+    }
+  },
+  {
+    "id": "feral_hog",
+    "slug": "feral-hog",
+    "name": "Feral Hog",
+    "sci": "Sus scrofa",
+    "group": "Hoofed",
+    "trackType": "Hoof print",
+    "sizeImp": "2 – 2.5 in",
+    "sizeMet": "5 – 6.5 cm",
+    "toes": 2,
+    "claws": false,
+    "gait": "Rooting walk / trot",
+    "stride": "14–20 in (36–51 cm)",
+    "danger": "moderate",
+    "dangerNote": "Boars have sharp tusks and sows defend piglets fiercely. Give groups a wide berth and never corner one.",
+    "habitat": "Bottomland forest, swamps, brush, farm fields",
+    "range": "Southern US (Texas, Florida, the Southeast), California; spreading north",
+    "activity": "Nocturnal & crepuscular, especially in summer heat",
+    "behavior": "Travels in groups (sounders) that root and churn the soil. Trails wander between wallows, rooted ground and feeding areas.",
+    "idTips": [
+      "Rounded, blunt-tipped split hoof — less pointed than deer",
+      "Two round dewclaws set WIDE, printing even on firm ground",
+      "Track nearly as wide as long once dewclaws show",
+      "Rooted, plowed-up soil and wallows nearby"
+    ],
+    "blurb": "A blunt, rounded split hoof flanked by wide-set dewclaws — the calling card of an invasive rooter.",
+    "confusedWith": [
+      "white-tailed-deer",
+      "elk"
+    ],
+    "footLabels": [
+      "Front foot",
+      "Hind foot"
+    ],
+    "features": [
+      {
+        "n": 1,
+        "text": "Rounded, blunt tips — no deer-like point",
+        "foot": "front"
+      },
+      {
+        "n": 2,
+        "text": "Dewclaws sit OUTSIDE the hoof edges — the hog giveaway",
+        "foot": "front"
+      },
+      {
+        "n": 3,
+        "text": "Blocky, rounded halves; print nearly as wide as long",
+        "foot": "front"
+      }
+    ],
+    "trail": {
+      "kind": "walk_hoof",
+      "name": "Walking hoof line",
+      "how": "Hind hoof steps into the front print, giving a zig-zag of single prints."
+    },
+    "guide": {
+      "summary": "A rounded, splayed cloven hoof with prominent round dewclaws set wide.",
+      "trackMorphology": "Two rounded cleaves that splay apart, blunter than deer; the dewclaws are large, ROUND, and set wider than the hoof — they print even on firm ground, unlike a deer’s.",
+      "gait": "Short-legged rooting walk; trails wander between diggings. Groups (sounders) churn the ground.",
+      "measurements": {
+        "imp": "Track ≈ 2–2.5 in, but dewclaws widen the impression.",
+        "met": "Track ≈ 5–6 cm, but dewclaws widen the impression."
+      },
+      "scat": "Cylindrical, often a clumped mass of flattened pellets; varied vegetable contents.",
+      "similar": "Deer (narrower hearts, dewclaws only in soft ground/at speed). Wide round dewclaws + rooting/diggings = boar.",
+      "substrate": "Soft soil shows the splayed cleaves + wide dewclaws; rooted ground is the giveaway.",
+      "photo": {
+        "uri": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Wildschwein%2C_N%C3%A4he_Pulverstampftor_%28cropped%29.jpg",
+        "alt": "Wild boar",
+        "credit": "Valentin Panzirsch — CC BY-SA 3.0 at",
+        "license": "CC BY-SA 3.0 at",
+        "source": "https://commons.wikimedia.org/wiki/File:Wildschwein%2C_N%C3%A4he_Pulverstampftor_(cropped).jpg"
+      }
+    }
+  },
+  {
+    "id": "black_bear",
+    "slug": "black-bear",
+    "name": "Black Bear",
+    "sci": "Ursus americanus",
+    "group": "Bear",
+    "trackType": "Paw print",
+    "sizeImp": "5 × 5 in (hind to 7)",
+    "sizeMet": "13 × 13 cm",
+    "toes": 5,
+    "claws": true,
+    "gait": "Overstep walk",
+    "stride": "14–24 in (36–61 cm)",
+    "danger": "moderate",
+    "dangerNote": "Usually avoids people, but is powerful and unpredictable near food or cubs. Never approach, and store food securely.",
+    "habitat": "Forests, mountains, swamps",
+    "range": "Forested regions of North America",
+    "activity": "Crepuscular, sometimes diurnal",
+    "behavior": "Five toes arc above a broad heel pad, with claw tips printing well ahead of the toes. The long hind track is strikingly human-foot-like.",
+    "idTips": [
+      "Five toes in a shallow arc",
+      "Broad pad — far wider than any dog",
+      "Claw tips print well ahead of the toes",
+      "Hind track resembles a flat human foot"
+    ],
+    "blurb": "A broad five-toed track tipped with claws — the hind print can look unsettlingly like a barefoot human.",
+    "confusedWith": [
+      "raccoon"
+    ],
+    "footLabels": [
+      "Front foot",
+      "Hind foot"
+    ],
+    "features": [
+      {
+        "n": 1,
+        "text": "Smallest toe is on the inside and often barely prints",
+        "foot": "front"
+      },
+      {
+        "n": 2,
+        "text": "Short claws close to the toes — usually under 1 in (2.5 cm)",
+        "foot": "front"
+      },
+      {
+        "n": 3,
+        "text": "Strong toe arc: inner toe drops below a line under the outer toe",
+        "foot": "front"
+      },
+      {
+        "n": 4,
+        "text": "Small round wrist pad may print behind the palm",
+        "foot": "front"
+      }
+    ],
+    "trail": {
+      "kind": "walk_overstep",
+      "name": "Overstep walk",
+      "how": "The long hind foot lands ahead of the front print; toes turn slightly in."
+    },
+    "guide": {
+      "summary": "A broad five-toed track tipped with claws — the hind print can look unsettlingly like a barefoot human.",
+      "trackMorphology": "Five short, rounded toes in a shallow arc over a very broad pad, claw tips printing just ahead of the toes. The hind track has a long sole + heel, resembling a flat human foot. Toes are NOT long fingers.",
+      "gait": "Overstep walk; the hind foot lands near the front, sometimes leaving a paired \"double\" print. Pigeon-toed.",
+      "measurements": {
+        "imp": "Front pad ≈ 5 in wide; hind 7 in long.",
+        "met": "Front pad ≈ 13 cm wide; hind 18 cm long."
+      },
+      "scat": "Large tubular scat, often loose; contents shift with season — vegetation, berries (purple, seedy), nuts, insects.",
+      "similar": "Brown bear (larger, longer claws, straighter toe line). A human-foot-like print with claw dots = black bear, not a person.",
+      "substrate": "Mud and dust show the toe arc + claws; the human-foot hind print is unmistakable.",
+      "photo": {
+        "uri": "https://upload.wikimedia.org/wikipedia/commons/0/08/01_Schwarzb%C3%A4r.jpg",
+        "alt": "American black bear",
+        "credit": "Diginatur — CC BY-SA 3.0",
+        "license": "CC BY-SA 3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:01_Schwarzb%C3%A4r.jpg"
+      }
+    }
+  },
+  {
+    "id": "grizzly_bear",
+    "slug": "grizzly-bear",
+    "name": "Grizzly Bear",
+    "sci": "Ursus arctos horribilis",
+    "group": "Bear",
+    "trackType": "Plantigrade print",
+    "sizeImp": "Front 5 – 6 in wide; hind 8 – 10 in long",
+    "sizeMet": "Front 13 – 15 cm wide; hind 20 – 25 cm long",
+    "toes": 5,
+    "claws": true,
+    "gait": "Overstep walk",
+    "stride": "20–30 in (51–76 cm)",
+    "danger": "high",
+    "dangerNote": "Dangerous if surprised or with cubs. Make noise on the trail, carry bear spray, and leave the area if tracks are fresh.",
+    "habitat": "Mountains, alpine meadows, river valleys, tundra",
+    "range": "Alaska, western Canada, northern Rockies (MT, WY, ID)",
+    "activity": "Diurnal & crepuscular",
+    "behavior": "Front claws are very long and print well ahead of the toes. The toes sit in a nearly STRAIGHT line, unlike the black bear’s arc.",
+    "idTips": [
+      "Long front claw marks, 1.5–4 in ahead of the toes",
+      "Toes in a fairly straight line across the top",
+      "Bigger than a black bear, with toes held closer together"
+    ],
+    "blurb": "A giant plantigrade print with a straight row of toes and claw marks reaching far ahead.",
+    "confusedWith": [
+      "black-bear"
+    ],
+    "footLabels": [
+      "Front foot",
+      "Hind foot"
+    ],
+    "features": [
+      {
+        "n": 1,
+        "text": "Claws 2–4 in (5–10 cm) long, printing well ahead of the toes",
+        "foot": "front"
+      },
+      {
+        "n": 2,
+        "text": "Toes in a near-straight row, almost touching",
+        "foot": "front"
+      },
+      {
+        "n": 3,
+        "text": "Inner toe sits above a line drawn under the outer toe",
+        "foot": "front"
+      },
+      {
+        "n": 4,
+        "text": "Palm pad 5–6 in (13–15 cm) wide — beyond any black bear",
+        "foot": "front"
+      }
+    ],
+    "trail": {
+      "kind": "walk_overstep",
+      "name": "Overstep walk",
+      "how": "The long hind foot lands ahead of the front print; toes turn slightly in."
+    },
+    "guide": {
+      "summary": "A massive five-toed print with long front claws set well ahead of the toes.",
+      "trackMorphology": "Five toes in a straighter line than the black bear, over a huge pad; the front claws are very long and print 2–4 cm ahead of the toe pads. A line drawn across the top of the toe pads passes ABOVE the big-toe pad (vs through it in black bear).",
+      "gait": "Overstep walk, pigeon-toed; immense stride and very deep prints.",
+      "measurements": {
+        "imp": "Front pad ≈ 6–8 in wide; hind very long.",
+        "met": "Front pad ≈ 15–20 cm wide; hind very long."
+      },
+      "scat": "Very large tubular scat, contents seasonal (vegetation, berries, salmon where present).",
+      "similar": "Black bear (smaller, shorter claws, more curved toe arc). The long front claws + straight toe line + size mark the grizzly.",
+      "substrate": "Deep in mud, sand and snow; the long claw marks are the key.",
+      "photo": {
+        "uri": "https://upload.wikimedia.org/wikipedia/commons/7/71/2010-kodiak-bear-1.jpg",
+        "alt": "Brown bear (grizzly)",
+        "credit": "Yathin S Krishnappa — CC BY-SA 3.0",
+        "license": "CC BY-SA 3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:2010-kodiak-bear-1.jpg"
+      }
+    }
+  },
+  {
+    "id": "raccoon",
+    "slug": "raccoon",
+    "name": "Raccoon",
+    "sci": "Procyon lotor",
+    "group": "Other",
+    "trackType": "Hand-like print",
+    "sizeImp": "2.5 – 3 in",
+    "sizeMet": "6.4 – 7.6 cm",
+    "toes": 5,
+    "claws": true,
+    "gait": "Pacing walk",
+    "stride": "10–18 in (25–46 cm)",
+    "danger": "low",
+    "dangerNote": "Can carry rabies and roundworm — never approach or feed.",
+    "habitat": "Near water, woodland, urban areas",
+    "range": "North America & introduced in Europe",
+    "activity": "Nocturnal",
+    "behavior": "Long-fingered tracks that look strikingly like tiny human hands. Front and hind prints often appear side by side.",
+    "idTips": [
+      "Five long, finger-like toes",
+      "Looks like a small human handprint",
+      "Front + hind tracks paired side by side"
+    ],
+    "blurb": "Five long fingers make the raccoon’s track look uncannily like a tiny human hand.",
+    "confusedWith": [
+      "striped-skunk",
+      "gray-squirrel"
+    ],
+    "footLabels": [
+      "Front foot",
+      "Hind foot"
+    ],
+    "features": [
+      {
+        "n": 1,
+        "text": "Five long, separate fingers — like a small child’s hand",
+        "foot": "front"
+      },
+      {
+        "n": 2,
+        "text": "C-shaped palm pad curving around the toe bases",
+        "foot": "front"
+      },
+      {
+        "n": 3,
+        "text": "Thumb toe sits lower than the others, angled out",
+        "foot": "front"
+      },
+      {
+        "n": 4,
+        "text": "Front heel prints only as a small round dot",
+        "foot": "front"
+      }
+    ],
+    "trail": {
+      "kind": "pace_2x2",
+      "name": "Pacing walk (2×2)",
+      "how": "Each hind foot lands beside the opposite front, so prints come in pairs."
+    },
+    "guide": {
+      "summary": "Five long fingers make the raccoon’s track look uncannily like a tiny human hand.",
+      "trackMorphology": "Five long, slender, finger-like toes on both front and hind feet, with tiny claw dots. The hind print is longer (heel-walking, plantigrade). Long thin fingers — never a bear.",
+      "gait": "Pacing walk that places the front foot beside the opposite hind, leaving characteristic side-by-side pairs (a small \"hand\" next to a longer \"foot\").",
+      "measurements": {
+        "imp": "Front ≈ 2.5 in; hind ≈ 3–3.5 in (longer).",
+        "met": "Front ≈ 6.5 cm; hind ≈ 7–9 cm (longer)."
+      },
+      "scat": "Blunt-ended tubular scat with crumbly, varied contents (berry seeds, crayfish parts); deposited at communal \"latrines\" on logs and rocks.",
+      "similar": "Opossum (thumb sticks out sideways on the hind); skunk (shorter toes, long front claws). The neat long-fingered hand is the raccoon tell.",
+      "substrate": "Streamside mud is ideal and where raccoons forage; fingers print sharply.",
+      "photo": {
+        "uri": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Raccoon_in_Central_Park_%2835264%29.jpg",
+        "alt": "Raccoon",
+        "credit": "Rhododendrites — CC BY-SA 4.0",
+        "license": "CC BY-SA 4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Raccoon_in_Central_Park_(35264).jpg"
+      }
+    }
+  },
+  {
+    "id": "virginia_opossum",
+    "slug": "virginia-opossum",
+    "name": "Virginia Opossum",
+    "sci": "Didelphis virginiana",
+    "group": "Other",
+    "trackType": "Hand-like print",
+    "sizeImp": "1.5 – 2.5 in",
+    "sizeMet": "4 – 6.5 cm",
+    "toes": 5,
+    "claws": true,
+    "gait": "Pacing walk",
+    "stride": "7–11 in (18–28 cm)",
+    "danger": "low",
+    "dangerNote": "Harmless. \"Playing possum\" is a defensive faint — leave it alone and it will wander off.",
+    "habitat": "Woodland, farmland, suburbs, near water",
+    "range": "Eastern & central US, Pacific coast, south into Central America",
+    "activity": "Nocturnal",
+    "behavior": "The hind foot has a clawless, thumb-like big toe that sticks out sideways or backwards — no other North American animal leaves that.",
+    "idTips": [
+      "Hind track has an opposable \"thumb\" pointing sideways",
+      "Front track is a five-pointed star",
+      "Toes more spread out than a raccoon’s"
+    ],
+    "blurb": "Look for the sideways thumb on the hind foot — only the opossum has one.",
+    "confusedWith": [
+      "raccoon",
+      "striped-skunk"
+    ],
+    "footLabels": [
+      "Front foot",
+      "Hind foot"
+    ],
+    "features": [
+      {
+        "n": 1,
+        "text": "Five toes spread wide like a star",
+        "foot": "front"
+      },
+      {
+        "n": 2,
+        "text": "Bulb-shaped pad at the tip of every toe",
+        "foot": "front"
+      },
+      {
+        "n": 3,
+        "text": "Palm is a cluster of rounded pads, not one bar",
+        "foot": "front"
+      },
+      {
+        "n": 4,
+        "text": "Hind: big clawless thumb pointing inward and back",
+        "foot": "hind"
+      }
+    ],
+    "trail": {
+      "kind": "pace_2x2",
+      "name": "Pacing walk (2×2)",
+      "how": "Each hind foot lands beside the opposite front, so prints come in pairs."
+    },
+    "guide": {
+      "summary": "North America’s only marsupial — its hind print has a thumb that sticks out sideways like a hand.",
+      "trackMorphology": "Five toes on each foot; the hind foot has an opposable, clawless THUMB (hallux) that juts out at almost 90°, giving a star-like, hand-with-a-thumb shape found in no other North American track. Fingers are long and spreading.",
+      "gait": "Slow pacing walk; front and hind print close together, often with a thin tail drag between.",
+      "measurements": {
+        "imp": "Track ≈ 1.8–2 in; star-shaped hind is the giveaway.",
+        "met": "Track ≈ 4.5–5 cm; star-shaped hind is the giveaway."
+      },
+      "scat": "Variable tubular scat (omnivore) — often hard to distinguish; rely on the unmistakable tracks.",
+      "similar": "Raccoon (no sideways thumb, fingers parallel). The sideways clawless thumb on the hind foot is unique to the opossum.",
+      "substrate": "Mud shows the splayed star with the offset thumb; a faint tail drag may join the prints.",
+      "photo": {
+        "uri": "https://upload.wikimedia.org/wikipedia/commons/2/27/Opossum_2.jpg",
+        "alt": "Virginia opossum",
+        "credit": "Cody Pope — CC BY-SA 2.5",
+        "license": "CC BY-SA 2.5",
+        "source": "https://commons.wikimedia.org/wiki/File:Opossum_2.jpg"
+      }
+    }
+  },
+  {
+    "id": "striped_skunk",
+    "slug": "striped-skunk",
+    "name": "Striped Skunk",
+    "sci": "Mephitis mephitis",
+    "group": "Other",
+    "trackType": "Paw print",
+    "sizeImp": "1.0 × 0.8 in",
+    "sizeMet": "2.5 × 2.0 cm",
+    "toes": 5,
+    "claws": true,
+    "gait": "Wandering walk",
+    "stride": "4–6 in (10–15 cm)",
+    "danger": "low",
+    "dangerNote": "No real threat beyond a memorable spray — back away slowly if it stamps its feet or raises its tail.",
+    "habitat": "Farmland, woodland edges, suburbs",
+    "range": "Across North America",
+    "activity": "Nocturnal",
+    "behavior": "Five toes with long front claws for digging grubs. Trails wander and turn pigeon-toed, with claw marks printing well ahead of the toe pads.",
+    "idTips": [
+      "Five toes with long front claw marks",
+      "Small and flat-footed",
+      "Wandering, pigeon-toed trail"
+    ],
+    "blurb": "Small five-toed digger tracks with long front claws and a meandering, pigeon-toed trail.",
+    "confusedWith": [
+      "raccoon",
+      "gray-squirrel"
+    ],
+    "footLabels": [
+      "Front foot",
+      "Hind foot"
+    ],
+    "features": [
+      {
+        "n": 1,
+        "text": "Long digging claws well ahead of the toes",
+        "foot": "front"
+      },
+      {
+        "n": 2,
+        "text": "Five small toes in a shallow arc",
+        "foot": "front"
+      },
+      {
+        "n": 3,
+        "text": "Wide fused palm pad, about 1 in (2.5 cm) across",
+        "foot": "front"
+      },
+      {
+        "n": 4,
+        "text": "Two tiny heel dots behind the palm",
+        "foot": "front"
+      }
+    ],
+    "trail": {
+      "kind": "walk_wander",
+      "name": "Wandering walk",
+      "how": "Front and hind prints land apart and the line meanders — no energy saving."
+    },
+    "guide": {
+      "summary": "Small five-toed digger tracks with long front claws and a meandering, pigeon-toed trail.",
+      "trackMorphology": "Five toes front and back; the front foot has long claws that print well ahead of the toe pads (a digger). Flat-footed (plantigrade), small, with a fuller heel on the hind.",
+      "gait": "Slow, wandering, pigeon-toed walk; often a 2×2 lope leaving paired prints. Never in a hurry.",
+      "measurements": {
+        "imp": "Track ≈ 1 in; front claws add length.",
+        "met": "Track ≈ 2.5 cm; front claws add length."
+      },
+      "scat": "Small tubular scat with insect parts, berry seeds and hair; left near foraging digs.",
+      "similar": "Raccoon (longer fingers, no long fore-claws); squirrel (bounds in 4s). Long front claws + small wandering trail = skunk.",
+      "substrate": "Soft soil and mud show the long fore-claws and the diggings beside the trail.",
+      "photo": {
+        "uri": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Skunk_about_to_spray.jpg",
+        "alt": "Striped skunk",
+        "credit": "Wallace Keck — Public domain",
+        "license": "Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Skunk_about_to_spray.jpg"
+      }
+    }
+  },
+  {
+    "id": "river_otter",
+    "slug": "river-otter",
+    "name": "River Otter",
+    "sci": "Lontra canadensis",
+    "group": "Other",
+    "trackType": "Webbed paw print",
+    "sizeImp": "2.5 – 3.5 in",
+    "sizeMet": "6.5 – 9 cm",
+    "toes": 5,
+    "claws": true,
+    "gait": "Bound / lope, with slides",
+    "stride": "12–30 in (30–76 cm) between groups",
+    "danger": "low",
+    "dangerNote": "Playful but strong; can bite if cornered. Watch from a distance.",
+    "habitat": "Rivers, lakes, marshes, coastlines",
+    "range": "Most of Canada and the US except the arid Southwest",
+    "activity": "Crepuscular, also active by day",
+    "behavior": "Round, five-toed prints with webbing that may show in mud. Bounds in groups and slides on its belly through snow and mud.",
+    "idTips": [
+      "Round print, 5 toes splayed with webbing",
+      "Often only 4 toes register",
+      "Belly slides and bounding pairs near water"
+    ],
+    "blurb": "A round, webbed, five-toed print beside belly slides near water.",
+    "confusedWith": [
+      "american-beaver",
+      "domestic-dog"
+    ],
+    "footLabels": [
+      "Front foot",
+      "Hind foot"
+    ],
+    "features": [
+      {
+        "n": 1,
+        "text": "Five round toes splayed in a wide arc",
+        "foot": "front"
+      },
+      {
+        "n": 2,
+        "text": "Webbing between toes shows in soft mud",
+        "foot": "front"
+      },
+      {
+        "n": 3,
+        "text": "Palm pad is lopsided — bigger on the outer side",
+        "foot": "front"
+      },
+      {
+        "n": 4,
+        "text": "Inner toe sits low and apart from the rest",
+        "foot": "front"
+      }
+    ],
+    "trail": {
+      "kind": "lope_2x2",
+      "name": "Lope (2×2)",
+      "how": "Angled pairs of prints, often broken by belly slides on snow or mud."
+    },
+    "guide": {
+      "summary": "A webbed-footed water mustelid that leaves slides, and five-toed prints with webbing marks.",
+      "trackMorphology": "Five toes with webbing that sometimes prints between them; small claws. Round-ish foot. Often accompanied by belly/snow SLIDES — smooth troughs where the otter toboggans.",
+      "gait": "Bounding lope between water bodies; on snow and mud banks, slides replace tracks.",
+      "measurements": {
+        "imp": "Track ≈ 2.5–3.5 in; slides 8–12 in wide.",
+        "met": "Track ≈ 6–9 cm; slides 20–30 cm wide."
+      },
+      "scat": "\"Spraint\" left on prominent bankside rocks/logs at latrines — full of fish scales and crayfish parts, with a distinctive fishy smell.",
+      "similar": "Mink (much smaller); beaver (huge webbed hind, no slides). Slides + fish-scale spraint at the water’s edge mark the otter.",
+      "substrate": "Mud banks and snow show webbing and slides; slides alone are diagnostic.",
+      "photo": {
+        "uri": "https://upload.wikimedia.org/wikipedia/commons/4/40/Northern_River_Otter_on_Seedskadee_NWR_%2822802102984%29.jpg",
+        "alt": "North American river otter",
+        "credit": "USFWS Mountain-Prairie — Public domain",
+        "license": "Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Northern_River_Otter_on_Seedskadee_NWR_(22802102984).jpg"
+      }
+    }
+  },
+  {
+    "id": "gray_squirrel",
+    "slug": "gray-squirrel",
+    "name": "Gray Squirrel",
+    "sci": "Sciurus carolinensis",
+    "group": "Rodent",
+    "trackType": "Paw print",
+    "sizeImp": "1.0 × 0.6 in",
+    "sizeMet": "2.5 × 1.5 cm",
+    "toes": 5,
+    "claws": true,
+    "gait": "Bounding",
+    "stride": "8–30 in (20–76 cm)",
+    "danger": "low",
+    "dangerNote": "Completely harmless.",
+    "habitat": "Hardwood forest, parks, suburbs",
+    "range": "Eastern & central North America",
+    "activity": "Diurnal",
+    "behavior": "Bounds in clusters of four prints, the larger hind feet landing ahead of the smaller front pair — the classic rodent bounding pattern, usually aimed at the nearest tree.",
+    "idTips": [
+      "Four prints clustered, hinds ahead of fronts",
+      "Long, thin toes with tiny claw dots",
+      "Hind tracks noticeably larger than front"
+    ],
+    "blurb": "Small long-fingered prints that bound in tidy clusters of four toward the nearest tree.",
+    "confusedWith": [
+      "raccoon",
+      "striped-skunk"
+    ],
+    "footLabels": [
+      "Front foot",
+      "Hind foot"
+    ],
+    "features": [
+      {
+        "n": 1,
+        "text": "Four toes in front; the thumb is a tiny stub",
+        "foot": "front"
+      },
+      {
+        "n": 2,
+        "text": "Three palm pads close behind the toes",
+        "foot": "front"
+      },
+      {
+        "n": 3,
+        "text": "Two separate heel pads, side by side",
+        "foot": "front"
+      },
+      {
+        "n": 4,
+        "text": "Hind: five long toes, the outer two set lower",
+        "foot": "hind"
+      }
+    ],
+    "trail": {
+      "kind": "bound_4",
+      "name": "4-print bound",
+      "how": "Hind feet land ahead of and outside the fronts, which sit side by side."
+    },
+    "guide": {
+      "summary": "Small long-fingered prints that bound in tidy clusters of four toward the nearest tree.",
+      "trackMorphology": "Four long thin toes on the front, five on the hind, with tiny claw dots. In a bound the larger hind feet land AHEAD of and outside the smaller front pair.",
+      "gait": "Bounds in clusters of four prints; the trail hops tree-to-tree and stops abruptly at a trunk.",
+      "measurements": {
+        "imp": "Hind ≈ 2.5 in; bound group ≈ 3–4 in across, leaps 1–3 ft.",
+        "met": "Hind ≈ 6 cm; bound group ≈ 8–10 cm across, leaps 0.3–1 m."
+      },
+      "scat": "Small scattered pellets; more often you find gnawed cones and cracked nut shells (see Scat & Sign).",
+      "similar": "Chipmunk (smaller); rabbit (hinds far longer, fronts inline). Four-print clusters aimed at a tree = squirrel.",
+      "substrate": "Snow and mud show the 4-print bound clearly; look for the trail ending at a trunk.",
+      "photo": {
+        "uri": "https://upload.wikimedia.org/wikipedia/commons/1/15/EasternGraySquirrel_GAm.jpg",
+        "alt": "Eastern gray squirrel",
+        "credit": "JeffreyGammon — CC BY-SA 4.0",
+        "license": "CC BY-SA 4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:EasternGraySquirrel_GAm.jpg"
+      }
+    }
+  },
+  {
+    "id": "american_beaver",
+    "slug": "american-beaver",
+    "name": "American Beaver",
+    "sci": "Castor canadensis",
+    "group": "Rodent",
+    "trackType": "Webbed hind print",
+    "sizeImp": "Hind 5 – 7 in; front 2.5 – 3.5 in",
+    "sizeMet": "Hind 13 – 18 cm; front 6.5 – 9 cm",
+    "toes": 5,
+    "claws": true,
+    "gait": "Waddling walk",
+    "stride": "3–6 in (8–15 cm)",
+    "danger": "low",
+    "dangerNote": "Not aggressive, but has powerful teeth — never handle one.",
+    "habitat": "Streams, ponds, lakes with woody shoreline",
+    "range": "Most of North America",
+    "activity": "Nocturnal & crepuscular",
+    "behavior": "Huge webbed hind feet often partly erased by the dragging tail. Look for gnawed stumps, dams and mud slides into the water.",
+    "idTips": [
+      "Very large hind print with webbing between 5 toes",
+      "Tail drag may smear the tracks",
+      "Always near water, with gnawed trees nearby"
+    ],
+    "blurb": "A huge webbed hind foot at the water’s edge, often wiped by a dragging tail.",
+    "confusedWith": [
+      "river-otter",
+      "raccoon"
+    ],
+    "footLabels": [
+      "Front foot",
+      "Hind foot"
+    ],
+    "features": [
+      {
+        "n": 1,
+        "text": "Slender fingers with stout claws — a hand built for digging",
+        "foot": "front"
+      },
+      {
+        "n": 2,
+        "text": "Small palm compared with the long toes",
+        "foot": "front"
+      },
+      {
+        "n": 3,
+        "text": "Round heel pad set apart behind the palm",
+        "foot": "front"
+      },
+      {
+        "n": 4,
+        "text": "Hind: huge, 5–7 in, with webbing joining all five toes",
+        "foot": "hind"
+      }
+    ],
+    "trail": {
+      "kind": "pace_2x2",
+      "name": "Pacing walk (2×2)",
+      "how": "Each hind foot lands beside the opposite front, so prints come in pairs."
+    },
+    "guide": {
+      "summary": "A huge webbed hind foot and a small hand-like front — usually wiped by a dragging tail.",
+      "trackMorphology": "The hind foot is large (to 7 in) and WEBBED, fan-shaped; the front is small with long fingers. Often the broad flat tail drags and partly erases the trail.",
+      "gait": "Waddling walk between water and cut trees; rarely far from water.",
+      "measurements": {
+        "imp": "Hind ≈ 5–7 in long; front ≈ 3 in.",
+        "met": "Hind ≈ 13–18 cm long; front ≈ 7.5 cm."
+      },
+      "scat": "Rarely seen — deposited in water; look instead for sign.",
+      "similar": "Otter (no big webbed hind, leaves slides); muskrat (much smaller). Huge webbed hind + tail drag + cut wood = beaver.",
+      "substrate": "Mud at dam/lodge launch points shows the webbed hind; gnawed stumps and dams confirm.",
+      "photo": {
+        "uri": "https://upload.wikimedia.org/wikipedia/commons/6/6b/American_Beaver.jpg",
+        "alt": "North American beaver",
+        "credit": "Steve from Washington, DC, USA — CC BY-SA 2.0",
+        "license": "CC BY-SA 2.0",
+        "source": "https://commons.wikimedia.org/wiki/File:American_Beaver.jpg"
+      }
+    }
+  },
+  {
+    "id": "eastern_cottontail",
+    "slug": "eastern-cottontail",
+    "name": "Cottontail Rabbit",
+    "sci": "Sylvilagus floridanus",
+    "group": "Rabbit",
+    "trackType": "Hopping pattern",
+    "sizeImp": "Hind 2.5 – 3.5 in; front ~1 in",
+    "sizeMet": "Hind 6.5 – 9 cm; front ~2.5 cm",
+    "toes": 4,
+    "claws": true,
+    "gait": "Hop / bound",
+    "stride": "7–36 in (18–90 cm) between groups",
+    "danger": "low",
+    "dangerNote": "Completely harmless.",
+    "habitat": "Brushy edges, meadows, gardens, suburbs",
+    "range": "Eastern & central North America into Mexico",
+    "activity": "Crepuscular & nocturnal",
+    "behavior": "Hops in groups of four: two long hind feet land side by side IN FRONT of the two small front feet, which fall one behind the other — a \"Y\" shape.",
+    "idTips": [
+      "Groups of four in a Y pattern",
+      "Long hind feet ahead of small round front feet",
+      "Fur-blurred toes — pads rarely show clearly"
+    ],
+    "blurb": "Two long hind feet ahead, two small front feet behind — the classic rabbit Y.",
+    "confusedWith": [
+      "gray-squirrel"
+    ],
+    "footLabels": [
+      "Front foot",
+      "Hind foot"
+    ],
+    "features": [
+      {
+        "n": 1,
+        "text": "Toes barely show — hair covers the whole foot",
+        "foot": "front"
+      },
+      {
+        "n": 2,
+        "text": "Soft, fuzzy outline with no crisp pad edges",
+        "foot": "front"
+      },
+      {
+        "n": 3,
+        "text": "Front print is small and round, about 1 in (2.5 cm)",
+        "foot": "front"
+      },
+      {
+        "n": 4,
+        "text": "Hind: long furred sole lands ahead of the front feet",
+        "foot": "hind"
+      }
+    ],
+    "trail": {
+      "kind": "hop",
+      "name": "Hop",
+      "how": "Two small fronts one behind the other, two long hinds side by side ahead."
+    },
+    "guide": null
+  },
+  {
+    "id": "wild_turkey",
+    "slug": "wild-turkey",
+    "name": "Wild Turkey",
+    "sci": "Meleagris gallopavo",
+    "group": "Bird",
+    "trackType": "Bird track",
+    "sizeImp": "4 × 4.5 in",
+    "sizeMet": "10 × 11 cm",
+    "toes": 4,
+    "claws": true,
+    "gait": "Walking",
+    "stride": "8–13 in (20–33 cm)",
+    "danger": "low",
+    "dangerNote": "Harmless, though toms can be territorial and bold in spring.",
+    "habitat": "Open woodland, field edges, clearings",
+    "range": "Across North America",
+    "activity": "Diurnal",
+    "behavior": "Three long forward toes fan out like a peace sign, with a small hind toe sometimes printing behind. The flock wanders as it forages.",
+    "idTips": [
+      "Three slim, splayed forward toes",
+      "Small backward hind toe may show",
+      "Large — about as wide as your palm"
+    ],
+    "blurb": "A big three-toed bird track that fans out like a peace sign pressed into the mud.",
+    "confusedWith": [
+      "raccoon"
+    ],
+    "footLabels": [
+      "Right foot",
+      "Left foot"
+    ],
+    "features": [
+      {
+        "n": 1,
+        "text": "Middle toe clearly the longest; print runs 4+ in (10+ cm)",
+        "foot": "front"
+      },
+      {
+        "n": 2,
+        "text": "Thick toes print as chains of knobby pads",
+        "foot": "front"
+      },
+      {
+        "n": 3,
+        "text": "Short rear toe (hallux) angles back toward the body",
+        "foot": "front"
+      }
+    ],
+    "trail": {
+      "kind": "walk_bird",
+      "name": "Bird walk",
+      "how": "Alternating feet, middle toe angled slightly toward the trail centre."
+    },
+    "guide": {
+      "summary": "A big three-toed bird track that fans out like a peace sign pressed into the mud.",
+      "trackMorphology": "Three long, slim forward toes splayed wide, with a small backward toe (hallux) sometimes printing as a dot behind. No paw pad — it’s a classic bird foot, large and bony.",
+      "gait": "Walks while foraging; alternating left-right prints, the flock spreading across open ground.",
+      "measurements": {
+        "imp": "Track ≈ 4 × 4.5 in — about palm-width.",
+        "met": "Track ≈ 10 × 11 cm — about palm-width."
+      },
+      "scat": "Two forms: males leave J-shaped droppings, females spiral/looped ones — both whitewashed at the tip.",
+      "similar": "Heron/large birds (longer, thinner toes, wetland); the large palm-wide 3-toe fan + woodland edge habitat = turkey.",
+      "substrate": "Mud and snow show the three-toe fan crisply; look for scratched-up leaf litter where they fed.",
+      "photo": {
+        "uri": "https://upload.wikimedia.org/wikipedia/commons/b/bc/20260428_tom_wild_turkey_matthaei_botanical_gardens_PD08952.jpg",
+        "alt": "Wild turkey",
+        "credit": "Paul Danese — CC BY-SA 4.0",
+        "license": "CC BY-SA 4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:20260428_tom_wild_turkey_matthaei_botanical_gardens_PD08952.jpg"
+      }
+    }
+  },
+  {
+    "id": "canada_goose",
+    "slug": "canada-goose",
+    "name": "Canada Goose",
+    "sci": "Branta canadensis",
+    "group": "Bird",
+    "trackType": "Webbed foot",
+    "sizeImp": "4 – 5 in",
+    "sizeMet": "10 – 13 cm",
+    "toes": 3,
+    "claws": true,
+    "gait": "Waddling walk",
+    "stride": "5–8 in (13–20 cm)",
+    "danger": "low",
+    "dangerNote": "Can hiss and charge near nests in spring — give them space.",
+    "habitat": "Lakes, ponds, parks, golf courses, fields",
+    "range": "Throughout North America",
+    "activity": "Diurnal",
+    "behavior": "Three forward toes joined by full webbing, so the print is a solid triangle rather than three separate lines. Toes point slightly inward.",
+    "idTips": [
+      "Three toes joined by webbing — a filled triangle",
+      "Front edge of the web is curved or scalloped",
+      "Pigeon-toed waddle near water"
+    ],
+    "blurb": "A big webbed triangle in the mud of every park pond.",
+    "confusedWith": [
+      "wild-turkey"
+    ],
+    "footLabels": [
+      "Right foot",
+      "Left foot"
+    ],
+    "features": [
+      {
+        "n": 1,
+        "text": "Webbing fills the space between all three front toes",
+        "foot": "front"
+      },
+      {
+        "n": 2,
+        "text": "Web edge curves back between the toe tips",
+        "foot": "front"
+      },
+      {
+        "n": 3,
+        "text": "Sharp claw mark at the tip of each toe",
+        "foot": "front"
+      },
+      {
+        "n": 4,
+        "text": "Rear toe tiny or missing (a turkey shows a clear one)",
+        "foot": "front"
+      }
+    ],
+    "trail": {
+      "kind": "walk_bird",
+      "name": "Bird walk",
+      "how": "Alternating feet, middle toe angled slightly toward the trail centre."
+    },
+    "guide": null
+  }
+]

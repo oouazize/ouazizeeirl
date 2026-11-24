@@ -1,5 +1,12 @@
 import Image from "next/image";
+import Link from "next/link";
 import type { AppEntry } from "@/lib/appstore";
+import { AppStoreLink } from "@/components/AppStoreLink";
+
+// Apps with their own page on this site (App Store id → path).
+const APP_PAGES: Record<string, { href: string; label: string }> = {
+  "6775337722": { href: "/paw", label: "Track guide & app page" },
+};
 
 export function AppGrid({ apps }: { apps: AppEntry[] }) {
   return (
@@ -46,17 +53,23 @@ function AppCard({ app }: { app: AppEntry }) {
           </h3>
           <p className="m-0 line-clamp-2 text-sm leading-snug text-muted">{app.description}</p>
         </div>
-        <a
+        <AppStoreLink
           href={app.appstore}
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label={`Get ${app.name} on the App Store`}
+          app={app.id}
+          placement="home_card"
+          label={`Get ${app.name} on the App Store`}
           className="inline-flex shrink-0 items-center gap-1.5 rounded-full bg-ink px-[18px] py-2 font-display text-sm font-semibold tracking-[0.01em] text-white transition hover:opacity-85 max-[480px]:px-3.5"
         >
           <AppleLogo />
           Get
-        </a>
+        </AppStoreLink>
       </div>
+
+      {APP_PAGES[app.id] && (
+        <Link href={APP_PAGES[app.id].href} className="-mt-2 font-display text-sm font-semibold text-ink underline underline-offset-4">
+          {APP_PAGES[app.id].label} →
+        </Link>
+      )}
 
       {app.screenshots.length > 0 && (
         <div className="grid grid-cols-3 gap-2.5">

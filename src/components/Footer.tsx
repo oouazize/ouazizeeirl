@@ -10,6 +10,9 @@ export function Footer() {
           <Link href="/" className="transition hover:text-ink">
             Home
           </Link>
+          <Link href="/paw" className="transition hover:text-ink">
+            Paw track guide
+          </Link>
           <Link href="/privacy" className="transition hover:text-ink">
             Privacy
           </Link>

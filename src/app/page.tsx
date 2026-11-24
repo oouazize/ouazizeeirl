@@ -42,7 +42,7 @@ function Hero({ count }: { count: string }) {
       <div className="mt-12 grid animate-rise grid-cols-[1.2fr_1fr] items-end gap-[60px] [animation-delay:140ms] max-[960px]:grid-cols-1 max-[960px]:items-start max-[960px]:gap-8">
         <p className="m-0 max-w-[600px] text-[1.0625rem] leading-relaxed text-muted">
           A one-person workshop building focused iOS apps. No subscriptions you forget about,
-          no dark patterns, no analytics empires — just small, useful objects you keep on your home screen.
+          no dark patterns, no ad trackers — just small, useful objects you keep on your home screen.
         </p>
 
         <div className="flex flex-col items-start gap-3.5">
@@ -66,7 +66,7 @@ function About({ count }: { count: string }) {
   const stats: [string, string][] = [
     [count, "apps shipped"],
     ["100%", "on-device when possible"],
-    ["0", "trackers, ever"],
+    ["0", "ad trackers or cookies"],
   ];
   return (
     <section id="about" className="border-t border-rule py-[120px]">

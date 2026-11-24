@@ -53,18 +53,19 @@ async function fetchScreenshots(appStoreUrl: string): Promise<string[]> {
     });
     if (!res.ok) return [];
     const html = await res.text();
-    // Numbered screenshot assets ("1.png", "2.png", …) are server-rendered
-    // into the page; the filename number is their display order.
-    const re = /https:\/\/is\d-ssl\.mzstatic\.com\/image\/thumb\/PurpleSource[^"]*?\/(\d+)\.png/g;
-    const byIndex = new Map<number, string>();
+    // Screenshot assets are server-rendered in display order. Older uploads are
+    // named "1.png", "2.png"… (the number is the order); newer ones keep their
+    // original filenames (e.g. "app-iphone-panel-1.png"), so fall back to
+    // first-appearance order and skip iPad shots.
+    const re = /https:\/\/is\d-ssl\.mzstatic\.com\/image\/thumb\/PurpleSource[^/"]*\/v4\/[0-9a-f/]+-[0-9a-f-]+\/([^/" ]+)\.(?:png|jpe?g)/g;
+    const seen = new Map<string, { name: string; base: string }>();
     for (const m of html.matchAll(re)) {
-      const n = Number(m[1]);
-      if (!byIndex.has(n)) byIndex.set(n, m[0]);
+      if (!seen.has(m[0])) seen.set(m[0], { name: m[1], base: m[0] });
     }
-    return [...byIndex.entries()]
-      .sort((a, b) => a[0] - b[0])
-      .slice(0, 3)
-      .map(([, base]) => `${base}/600x0w.png`);
+    const all = [...seen.values()].filter((x) => !/ipad|appletv|watch|mac/i.test(x.name));
+    const numbered = all.filter((x) => /^\d+$/.test(x.name));
+    const ordered = numbered.length >= 3 ? numbered.sort((a, b) => Number(a.name) - Number(b.name)) : all;
+    return ordered.slice(0, 3).map((x) => `${x.base}/600x0w.png`);
   } catch {
     return [];
   }
